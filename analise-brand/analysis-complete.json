@@ -1,0 +1,595 @@
+[
+  {
+    "page": "0.Guidelines",
+    "url": "https://brand.aioxsquad.ai/brandbook/guidelines",
+    "title": "Guidelines — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H3",
+        "text": "TRIANGULO / DELTA"
+      },
+      {
+        "level": "H3",
+        "text": "JOYSTICK"
+      },
+      {
+        "level": "H3",
+        "text": "A SETA"
+      },
+      {
+        "level": "H3",
+        "text": "INPUT"
+      },
+      {
+        "level": "H3",
+        "text": "ORQUESTRAÇÃO"
+      },
+      {
+        "level": "H3",
+        "text": "O DESTINO"
+      },
+      {
+        "level": "H3",
+        "text": "A COMPLEXIDADE"
+      },
+      {
+        "level": "H3",
+        "text": "OS CRIADORES"
+      },
+      {
+        "level": "H3",
+        "text": "AI ORCHESTRATION EXPERIENCE."
+      },
+      {
+        "level": "H3",
+        "text": "O SONO"
+      }
+    ],
+    "textPreview": "@media (max-width: 1024px) {\n          .bento-grid {\n            grid-template-columns: repeat(2, 1fr) !important;\n          }\n        }\n        @media (max-width: 768px) {\n          .bento-grid {\n            grid-template-columns: 1fr !important;\n          }\n        }\n      \n        @media (max-width: 1024px) {\n          .guidelines-panel {\n            grid-column: span 2 !important;\n          }\n        }\n        @media (max-width: 768px) {\n          .guidelines-panel {\n            gri",
+    "colorElementsCount": 286
+  },
+  {
+    "page": "1.Movimento",
+    "url": "https://brand.aioxsquad.ai/brandbook/movimento",
+    "title": "AIOX Movimento — Brandbook Estrategico",
+    "headings": [
+      {
+        "level": "H2",
+        "text": "O Manifesto AIOX"
+      },
+      {
+        "level": "H2",
+        "text": "Propósito & Valores"
+      },
+      {
+        "level": "H3",
+        "text": "Devolver às pessoas o poder de criar."
+      },
+      {
+        "level": "H3",
+        "text": "Empoderamento"
+      },
+      {
+        "level": "H3",
+        "text": "Profundidade"
+      },
+      {
+        "level": "H3",
+        "text": "Autenticidade"
+      },
+      {
+        "level": "H3",
+        "text": "Clareza"
+      },
+      {
+        "level": "H3",
+        "text": "Paixão"
+      },
+      {
+        "level": "H3",
+        "text": "Coragem"
+      },
+      {
+        "level": "H3",
+        "text": "XO Inimigo"
+      }
+    ],
+    "textPreview": "AIOX SQUADBRANDBOOK ESTRATEGICOV2.0 // DARK COCKPIT EDITIONTHE MASTER DOCUMENT.ORQUESTRANDO IA COM ESTRUTURA, METODOLOGIA E CLAREZA. DESENHADO PARA O FUTURO DA CRIACAO.Section 00Identity System2026A IA É A SETA◆O X É SEU◆TERMINAL REAL PARA LEIGOS◆DE 3 MESES PARA 3 DIAS◆X MARKS THE SPOT◆A IA É A SETA◆O X É SEU◆TERMINAL REAL PARA LEIGOS◆DE 3 MESES PARA 3 DIAS◆X MARKS THE SPOT\n        @keyframes bb-ticker-scroll {\n          0% { transform: translateX(0); }\n          100% { transform: translateX(-50",
+    "colorElementsCount": 578
+  },
+  {
+    "page": "2.Foundations",
+    "url": "https://brand.aioxsquad.ai/brandbook/foundations",
+    "title": "Foundations — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Design Foundations"
+      }
+    ],
+    "textPreview": "01TypographyFont Families & ScaleDisplay / HeadlinesTASAOrbiter BlackABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789 !@#$%&*--font-bb-display // TASAOrbiterDisplay 800 // H1-H4, Titles, ImpactSans / PrimaryGeist SemiboldABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789 !@#$%&*--font-bb-sans // Geist 400-700 // Body, UI, LabelsMono / TechnicalRobotoMono MediumABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789 {}<>[]()=>--font-bb-mono // Roboto Mono 400-500 // Code, Labels, Nav,",
+    "colorElementsCount": 620
+  },
+  {
+    "page": "3.Logo",
+    "url": "https://brand.aioxsquad.ai/brandbook/logo",
+    "title": "Logo — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Logo System"
+      }
+    ],
+    "textPreview": "01Primary LogoPrimary / Dark BackgroundPrimary / Light Background02VariantsHorizontal (H-AIOX-Squad)CompactFavicon / Small03Clear SpaceMinimum Clear Space = 1x height of \"X\"1x1x1x1x04Usage RulesCORRECTUse approved colors onlyCORRECTMonochrome on brand bgINCORRECTNever use non-brand colorsINCORRECTNever rotate or distort05Color ContextsOn Black (#000)On Surface (#0F0F11)On CreamOn Lime",
+    "colorElementsCount": 74
+  },
+  {
+    "page": "4.Icons",
+    "url": "https://brand.aioxsquad.ai/brandbook/icons",
+    "title": "Icons — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Icon System"
+      }
+    ],
+    "textPreview": "01Icon Grid16pxInline, tight spaces24pxDefault / UI32pxCards, emphasis48pxHero, featureCheckClosePlusMinusChevron RChevron LChevron DArrow RSearchSunGridMoon02Usage Rules01Always use 2px stroke width at all sizes.Maintains visual consistency across the scale.02Round caps and round joins only.stroke-linecap: round; stroke-linejoin: round;0324px viewBox as canonical base.Scale up/down from 24x24 viewBox.04Stroke only, no fills.Icons are outline-based. Use fill: none.05Use currentColor for inherita",
+    "colorElementsCount": 106
+  },
+  {
+    "page": "5.Moodboard",
+    "url": "https://brand.aioxsquad.ai/brandbook/moodboard",
+    "title": "Moodboard — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Moodboard"
+      }
+    ],
+    "textPreview": "Web UI & ProductCategoria 01Web UI & Product DesignInterfaces web reais que inspiram a linguagem visual do AIOX — dark-first, neon lime, tipografia monospace, grid systems.Symbiotic.fib2ec385e43a7d471f497f078fc382171.jpgDeFi protocol com landing page dark-first. Grid de fundo sutil com linhas lime, tipografia tech mono bold, CTAs lime com contraste alto.Dark GridLime CTAMonospaceWeb3Hero PatternInfluencia →Hero SectionButton SystemGrid BackgroundAge Gate Form UId8fd523c13b98c0023ca5301c3111b4b.j",
+    "colorElementsCount": 187
+  },
+  {
+    "page": "6.BrandStrategy",
+    "url": "https://brand.aioxsquad.ai/brandbook/aiox",
+    "title": "Brand Strategy — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Brand Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Results Over Process"
+      },
+      {
+        "level": "H3",
+        "text": "Radical Transparency"
+      },
+      {
+        "level": "H3",
+        "text": "Speed Without Shortcuts"
+      },
+      {
+        "level": "H3",
+        "text": "Human-First Automation"
+      },
+      {
+        "level": "H3",
+        "text": "Compounding Knowledge"
+      },
+      {
+        "level": "H3",
+        "text": "Skin in the Game"
+      },
+      {
+        "level": "H4",
+        "text": "Direct"
+      },
+      {
+        "level": "H4",
+        "text": "Technical"
+      },
+      {
+        "level": "H4",
+        "text": "Confident"
+      }
+    ],
+    "textPreview": "01Mission & VisionWhy We ExistMissionBuild custom AI systems that handle repetitive work, so humans can focus on what matters.VisionA world where every company operates at 10x efficiency through intelligent automation.02Core ValuesWhat We Believe01Results Over ProcessWe measure success by outcomes delivered, not hours billed.02Radical TransparencyWe share progress, problems, and pricing openly with every client.03Speed Without ShortcutsWe ship fast but never skip quality gates.04Human-First Auto",
+    "colorElementsCount": 100
+  },
+  {
+    "page": "7.Components",
+    "url": "https://brand.aioxsquad.ai/brandbook/components",
+    "title": "Components — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Component Catalog"
+      }
+    ],
+    "textPreview": "01Component IndexActionButtons (4)Inputs (3)LiveBadges (5)Switches (1)OptionCheckboxes (1)Sliders (1)Spinners (3)Progress (3)3 variantsCards (3)data gridTables (1)bar + donutCharts (2)alert + toast + modalFeedback (3)",
+    "colorElementsCount": 65
+  },
+  {
+    "page": "8.Buttons",
+    "url": "https://brand.aioxsquad.ai/brandbook/buttons",
+    "title": "Buttons — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Button Library"
+      }
+    ],
+    "textPreview": "01VariantsPrimaryPrimarySecondarySecondaryGhostGhostDeleteDestructive02SizesSmallSmallMediumMediumLargeLarge03StatesDefaultDefaultLoadingDisabledDisabled04CombinationsBook a CallLearn MoreCancelRemove",
+    "colorElementsCount": 76
+  },
+  {
+    "page": "9.Cards",
+    "url": "https://brand.aioxsquad.ai/brandbook/cards",
+    "title": "Cards — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Card Library"
+      },
+      {
+        "level": "H3",
+        "text": "Default Card"
+      },
+      {
+        "level": "H3",
+        "text": "Elevated Card"
+      },
+      {
+        "level": "H3",
+        "text": "Outlined Card"
+      },
+      {
+        "level": "H3",
+        "text": "Project Alpha"
+      },
+      {
+        "level": "H3",
+        "text": "Report Q4"
+      }
+    ],
+    "textPreview": "01VariantsDefault CardStandard surface cardContent area with default background and border styling.Elevated CardWith shadowContent area with elevated shadow for emphasis.Outlined CardTransparent bgContent area with transparent background and border.02With ActionsProject AlphaAI AutomationActiveWorkflow automation project with 12 active squads and 3 pending reviews.OpenArchiveReport Q4FinancialDraftQuarterly financial report with pending approval from stakeholders.EditDelete",
+    "colorElementsCount": 44
+  },
+  {
+    "page": "10.Forms",
+    "url": "https://brand.aioxsquad.ai/brandbook/forms",
+    "title": "Forms — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Form Library"
+      }
+    ],
+    "textPreview": "01Text InputsFull NameAs it appears on your IDEmailWe will send a confirmationPasswordMinimum 8 characters requiredDisabled Input02TextareaMessageMax 500 characters03SelectRoleSelect a role...AdminEditorViewer04TogglesAccept termsSubscribe to newsletterDisabledOption AOption BOption CEnable notifications05Composed FormProject Name*DescriptionPriorityLowMediumHighMark as urgentCreate ProjectCancel",
+    "colorElementsCount": 75
+  },
+  {
+    "page": "11.Feedback",
+    "url": "https://brand.aioxsquad.ai/brandbook/feedback",
+    "title": "Feedback — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Feedback Library"
+      }
+    ],
+    "textPreview": "01AlertsInformationThis is an informational alert message.SuccessOperation completed successfully.WarningPlease review before proceeding.ErrorSomething went wrong. Please try again.02ToastsChanges saved successfully✕Failed to connect to server✕Storage almost full (92%)✕New update available✕03ModalOpen Modal",
+    "colorElementsCount": 44
+  },
+  {
+    "page": "12.States",
+    "url": "https://brand.aioxsquad.ai/brandbook/states",
+    "title": "States — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "System States"
+      }
+    ],
+    "textPreview": "01SpinnersSmallMediumLarge02Progress BarsSmall — 25%Medium — 50%Large — 75%Complete — 100%03SkeletonsText LinesCard SkeletonImage Placeholder",
+    "colorElementsCount": 58
+  },
+  {
+    "page": "13.Tables",
+    "url": "https://brand.aioxsquad.ai/brandbook/tables",
+    "title": "Tables — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Table Library"
+      }
+    ],
+    "textPreview": "01Standard TableIDNameRoleStatusScore001NeoDeveloperActive98002TrinityQA ArchitectActive95003MorpheusStrategistReview91004OracleAdvisorIdle87005SmithAntagonistBlocked4202Compact MetricsMetricValueChangeResponse Time120ms-15%Throughput2.4K/s+8%Error Rate0.3%-60%Uptime99.97%+0.02%",
+    "colorElementsCount": 70
+  },
+  {
+    "page": "14.Lists",
+    "url": "https://brand.aioxsquad.ai/brandbook/lists",
+    "title": "Lists — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "List Library"
+      }
+    ],
+    "textPreview": "01List ItemsWorkflow AutomationConnect your tools and eliminate manual handoffsActiveCustomer Support AIHandle inquiries 24/7 with human-like accuracyIn ProgressData PipelineAutomated ETL from 12 sourcesPlannedLegacy MigrationDeprecated system being replacedBlocked02KPI CardsDeployments50+Time Saved83%Hours Automated245KError Rate0.3%",
+    "colorElementsCount": 42
+  },
+  {
+    "page": "15.Charts",
+    "url": "https://brand.aioxsquad.ai/brandbook/charts",
+    "title": "Charts — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Chart Library"
+      }
+    ],
+    "textPreview": "01Bar ChartMonthly Performance45Jan62Feb38Mar71Apr55May89Jun76Jul94Aug02Donut Chart100AutomationSupportAnalyticsOther03Colored BarsQuarterly Revenue120Q1185Q2145Q3210Q4",
+    "colorElementsCount": 33
+  },
+  {
+    "page": "16.Sections",
+    "url": "https://brand.aioxsquad.ai/brandbook/sections",
+    "title": "Sections — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Marketing Sections"
+      },
+      {
+        "level": "H2",
+        "text": "Scale your operations [10x] without hiring [100] people."
+      },
+      {
+        "level": "H2",
+        "text": "Humans should do human work. AI should do everything else. We build the systems that make this happen."
+      },
+      {
+        "level": "H2",
+        "text": "Six ways we automate your work"
+      },
+      {
+        "level": "H3",
+        "text": "Document Processing"
+      },
+      {
+        "level": "H3",
+        "text": "Customer Support"
+      },
+      {
+        "level": "H3",
+        "text": "Data Processing & Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Workflow Automation"
+      },
+      {
+        "level": "H3",
+        "text": "Content & Communication"
+      },
+      {
+        "level": "H3",
+        "text": "Custom Solutions"
+      }
+    ],
+    "textPreview": "HeroSectionREBUILDAIOX[01]Eliminate your bottleneck _Scale your operations [10x] without hiring [100] people.We build custom AI systems that handle your repetitive work, so you can focus on growth, not grunt work.See how it worksTrusted by 50+ companieslive automation 2026Play demo / 90 SECTrusted by 50+2026LogoTickerENHANCETrusted by 50+ companies _PythonChatGPTAWSZapierGoogle CloudDockerClaudeNodeJSVercelStripeAirtableGitHubPythonChatGPTAWSZapierGoogle CloudDockerClaudeNodeJSVercelStripeAirtab",
+    "colorElementsCount": 134
+  },
+  {
+    "page": "17.Advanced",
+    "url": "https://brand.aioxsquad.ai/brandbook/advanced",
+    "title": "Advanced — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Advanced UI"
+      }
+    ],
+    "textPreview": "01TabsOverviewConfigurationLogsProject overview with key metrics and status dashboard. Displays real-time data from connected automation systems.02AccordionWhat is AIOX?▼AIOX is an AI-orchestrated automation platform that builds custom systems to handle repetitive work, so your team can focus on growth and strategy.How long does implementation take?▼Do I need to be a programmer?▼What about data security?▼03Stepper — Horizontal✓Discovery✓Architecture3Implementation4QA Review5Deploy04Stepper — Ver",
+    "colorElementsCount": 63
+  },
+  {
+    "page": "18.Effects",
+    "url": "https://brand.aioxsquad.ai/brandbook/effects",
+    "title": "Effects — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Visual Effects"
+      }
+    ],
+    "textPreview": "01Ticker StripPython◆ChatGPT◆AWS◆Zapier◆Docker◆Claude◆NodeJS◆Vercel◆Stripe◆Python◆ChatGPT◆AWS◆Zapier◆Docker◆Claude◆NodeJS◆Vercel◆Stripe\n        @keyframes bb-ticker-scroll {\n          0% { transform: translateX(0); }\n          100% { transform: translateX(-50%); }\n        }\n      02Badge VariantsLimeBlueErrorSurfaceSolid03Glow & PulseNeon GlowSpinPulse04Hover EffectsAutomationIntelligenceOrchestrationIntegration",
+    "colorElementsCount": 78
+  },
+  {
+    "page": "19.Patterns",
+    "url": "https://brand.aioxsquad.ai/brandbook/patterns",
+    "title": "Patterns — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Pattern Library"
+      },
+      {
+        "level": "H2",
+        "text": "Dot Grid"
+      },
+      {
+        "level": "H2",
+        "text": "Dot Grid Dense"
+      },
+      {
+        "level": "H2",
+        "text": "Dot Grid Sparse"
+      },
+      {
+        "level": "H2",
+        "text": "Crosshair Grid"
+      },
+      {
+        "level": "H2",
+        "text": "Crosshair Grid Tight"
+      },
+      {
+        "level": "H2",
+        "text": "Wireframe Perspective"
+      },
+      {
+        "level": "H2",
+        "text": "Symbol Grid"
+      },
+      {
+        "level": "H2",
+        "text": "Plus Grid"
+      },
+      {
+        "level": "H2",
+        "text": "Frame Bracket"
+      }
+    ],
+    "textPreview": "01Grid PatternsBackground TexturesDot Grid.pattern-dot-grid16px spaced lime dots on dark surface. Default density for backgrounds and empty states.Dot Grid Dense.pattern-dot-grid--dense8px spaced dots, tighter weave. Use for small panels or thumbnail backgrounds where detail matters.Dot Grid Sparse.pattern-dot-grid--sparse32px spacing with larger dots. Subtle backdrop for hero sections and large content areas.Crosshair Grid.pattern-crosshair-grid80px grid lines with centered crosshair dots. Tech",
+    "colorElementsCount": 159
+  },
+  {
+    "page": "20.Templates",
+    "url": "https://brand.aioxsquad.ai/brandbook/templates",
+    "title": "Templates — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Page Templates"
+      }
+    ],
+    "textPreview": "01Page ShellStandard Page ShellEvery brandbook page follows this structure: sticky nav → page header → section dividers → footerLinkActiveLinkPage Title01 // Section02 // SectionPAGE TITLE<!-- Standard page structure --><nav class=\"site-nav\">...</nav><header class=\"page-header\">...</header><div class=\"section-divider\">...</div><!-- content sections --><footer class=\"page-footer\">...</footer>02Dashboard GridBento Dashboard — 4 ColAsymmetric grid with span-2 and span-3 cells for dashboard layoutsH",
+    "colorElementsCount": 116
+  },
+  {
+    "page": "21.Motion",
+    "url": "https://brand.aioxsquad.ai/brandbook/motion",
+    "title": "Motion — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Motion Showcase"
+      },
+      {
+        "level": "H2",
+        "text": "Orchestration Pulse"
+      },
+      {
+        "level": "H2",
+        "text": "Speed Lines"
+      },
+      {
+        "level": "H2",
+        "text": "Particle Orbit"
+      },
+      {
+        "level": "H2",
+        "text": "Logo Dissolve"
+      },
+      {
+        "level": "H2",
+        "text": "Morphing Square"
+      },
+      {
+        "level": "H2",
+        "text": "Glitch Reveal"
+      },
+      {
+        "level": "H2",
+        "text": "Stagger Letters"
+      },
+      {
+        "level": "H2",
+        "text": "Brand Reveal"
+      }
+    ],
+    "textPreview": "",
+    "colorElementsCount": 103
+  },
+  {
+    "page": "22.SEO",
+    "url": "https://brand.aioxsquad.ai/brandbook/seo",
+    "title": "SEO & Digital Identity — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "SEO & Digital Identity"
+      }
+    ],
+    "textPreview": "01Meta TagsHTML Head Metadata<meta name=\"title\">AIOX Squad — AI Automation AgencyPrimary page title. Max 60 chars.<meta name=\"description\">We build custom AI systems that handle your repetitive work.Meta description. Max 155 chars.<meta name=\"robots\">index, followSearch engine crawl directives.<meta name=\"canonical\">https://aiox.ai/Canonical URL to prevent duplicates.02Open GraphSocial Sharing ProtocolOG Propertiesog:titleAIOX Squad — AI Automationog:descriptionScale operations 10x without hirin",
+    "colorElementsCount": 83
+  },
+  {
+    "page": "23.VFX",
+    "url": "https://brand.aioxsquad.ai/brandbook/vfx",
+    "title": "VFX System — AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "VFX System"
+      }
+    ],
+    "textPreview": "01Film GrainTexture OverlaySubtle (5%)opacity: 0.05Light (10%)opacity: 0.1Medium (15%)opacity: 0.15Heavy (25%)opacity: 0.2502Blend ModesCSS Mix-BlendmultiplySAMPLEscreenSAMPLEoverlaySAMPLEsoft-lightSAMPLEcolor-dodgeSAMPLEdifferenceSAMPLE03Blur EffectsBackdrop FilterNo Blurbackdrop-filter: blur(0px)Subtle (4px)backdrop-filter: blur(4px)Medium (8px)backdrop-filter: blur(8px)Heavy (16px)backdrop-filter: blur(16px)04Glow EffectsBox Shadow & Text ShadowNeon Glowbox-shadow: 0 0 8px rgba(209,255,0,0.4)",
+    "colorElementsCount": 119
+  },
+  {
+    "page": "24.Editorial",
+    "url": "https://brand.aioxsquad.ai/brandbook/editorial",
+    "title": "Editorial // AIOX Brandbook",
+    "headings": [
+      {
+        "level": "H2",
+        "text": "AGORA O CONTROLE É SEU."
+      },
+      {
+        "level": "H4",
+        "text": "Diretrizes de Uso"
+      },
+      {
+        "level": "H4",
+        "text": "EMPODERAMENTO"
+      },
+      {
+        "level": "H4",
+        "text": "PROFUNDIDADE"
+      },
+      {
+        "level": "H4",
+        "text": "AUTENTICIDADE"
+      },
+      {
+        "level": "H4",
+        "text": "CLAREZA"
+      },
+      {
+        "level": "H4",
+        "text": "PAIXAO"
+      },
+      {
+        "level": "H4",
+        "text": "CORAGEM"
+      },
+      {
+        "level": "H3",
+        "text": "A COMPLEXIDADE QUE ROUBA"
+      },
+      {
+        "level": "H3",
+        "text": "OS LEGENDARIOS"
+      }
+    ],
+    "textPreview": "AIOX SQUADBRAND IDENTITY SYSTEMV2.0 // 2026AGORA O CONTROLE É SEU.Devolver às pessoas o poder de criar, orquestrando IA com estrutura, metodologia e clareza para que qualquer pessoa com visão possa construir.EDITORIAL EDITIONAI ORCHESTRATION EXPERIENCETERMINAL REAL PARA LEIGOS01Logo & ColorsVisual Basics1. LOGO SYSTEM.Primary typeface cannot be distortedSafe space2. COLOR PALETTE.Kinetic Limon#D1FF00Void Dark#050505Obsidian#0F0F11Cream#F5F4E7Warm White#FFFFEDLogo SystemAIOX SQUAD.101PrimaryRever",
+    "colorElementsCount": 947
+  }
+]

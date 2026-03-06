@@ -1,0 +1,188 @@
+# RENTABILIZA BRAND STRATEGY
+# Extracted from: Estratégia Rentabiliza.md
+
+mission: |
+  Identificamos, analisamos e arrematamos imóveis com até 40% de desconto,
+  garantindo segurança jurídica completa em todo o processo de aquisição via leilão.
+
+vision: |
+  Ser a referência nacional em investimentos imobiliários via leilões,
+  democratizando o acesso a oportunidades de alto retorno com segurança e transparência.
+
+positioning: "Você investe, nós fazemos render."
+
+value_proposition: |
+  Identificamos, analisamos e arrematamos imóveis com até 40% de desconto,
+  garantindo segurança jurídica completa em todo o processo de aquisição via leilão.
+
+# Core Differentiators
+differentiators:
+  - name: "Foco Específico"
+    description: "Revenda e potencial de valorização"
+
+  - name: "Abordagem Completa"
+    description: "Do processo de identificação até a revenda"
+
+  - name: "Rede Estratégica"
+    description: "Corretores parceiros para facilitar a revenda"
+
+  - name: "Transparência"
+    description: "Objetividade na comunicação de resultados potenciais"
+
+# Core Values
+values:
+  - name: "Empoderamento"
+    description: "Devolver às pessoas o poder de investir com inteligência"
+
+  - name: "Profundidade"
+    description: "Análise técnica rigorosa e metodologia comprovada"
+
+  - name: "Autenticidade"
+    description: "Transparência radical em processos e resultados"
+
+  - name: "Clareza"
+    description: "Comunicação objetiva e dados concretos"
+
+  - name: "Paixão"
+    description: "Comprometimento genuíno com o sucesso do investidor"
+
+  - name: "Coragem"
+    description: "Visão contrarian que identifica valor onde outros veem risco"
+
+# Target Audiences (Primary)
+target_audiences:
+  primary:
+    - name: "Investidor para Revenda"
+      profile: "Investidor com experiência prévia buscando multiplicação de capital"
+      capital: "R$ 300k+"
+      horizon: "6-18 meses"
+      pain: "Frustração com margens pequenas no mercado tradicional"
+      desire: "Multiplicar capital rapidamente para independência financeira"
+
+    - name: "Investidor para Renda Passiva"
+      profile: "Profissional ou empresário buscando renda mensal adicional"
+      capital: "R$ 300k+"
+      horizon: "5+ anos"
+      pain: "Insatisfação com rendimentos baixos (0,3-0,5% a.m.)"
+      desire: "Criar fluxo de caixa passivo e previsível"
+
+    - name: "Investidor Diversificador"
+      profile: "Investidor com patrimônio estabelecido buscando proteção"
+      capital: "R$ 300k+"
+      horizon: "3+ anos"
+      pain: "Preocupação com instabilidade econômica e inflação"
+      desire: "Proteger patrimônio com ativos tangíveis"
+
+    - name: "Empresário Consolidado"
+      profile: "Dono de empresa médio/grande porte com liquidez"
+      age: "40-60 anos"
+      pain: "Capital concentrado na empresa, busca diversificação"
+      desire: "Criar patrimônio separado para segurança familiar"
+
+    - name: "Executivo C-Level"
+      profile: "Diretor ou alto executivo com bônus significativos"
+      age: "35-55 anos"
+      pain: "Acumula capital mas sem tempo para gerenciar"
+      desire: "Construir patrimônio para aposentadoria em alto padrão"
+
+    - name: "Investidor Iniciante"
+      profile: "Profissional bem-sucedido no primeiro investimento significativo"
+      age: "30-45 anos"
+      pain: "Medo de perder dinheiro por inexperiência"
+      desire: "Iniciar no mercado imobiliário com segurança"
+
+# Brand Voice & Tone
+voice:
+  attributes:
+    - name: "Sofisticado"
+      description: "Linguagem técnica e financeira precisa"
+
+    - name: "Transparente"
+      description: "Honestidade radical sobre processos e riscos"
+
+    - name: "Contrarian"
+      description: "Pensamento independente que desafia o senso comum"
+
+    - name: "Educativo"
+      description: "Compartilha conhecimento para empoderar investidores"
+
+    - name: "Confiante"
+      description: "Assertivo sem arrogância, baseado em dados"
+
+  tone_examples:
+    formal: "Análise técnica demonstra potencial de valorização de 34%"
+    casual: "Enquanto todo mundo paga caro, você compra com desconto"
+    provocative: "Por que você ainda deixa dinheiro na Selic?"
+
+# Content Pillars (Instagram)
+content_pillars:
+  - name: "Insider de Elite"
+    percentage: 40
+    description: "Revelar informações privilegiadas e bastidores exclusivos"
+    examples:
+      - "Informação que só 2% dos investidores sabem"
+      - "O que family offices brasileiros estão fazendo"
+      - "Documento que recebi do TJ (oportunidade de R$ 2M)"
+
+  - name: "Realidade Crua do Mercado"
+    percentage: 40
+    description: "Crítica aos absurdos do mercado tradicional"
+    examples:
+      - "Apartamento 24m² por R$ 600k... será que é só localização?"
+      - "Kitnet com 'área de lazer' = vaso de planta no corredor"
+      - "Por que você paga R$ 650k por 30m²?"
+
+  - name: "Contrarian Inteligente"
+    percentage: 10
+    description: "Antimanada, pensamento de longo prazo"
+    examples:
+      - "Enquanto todo mundo foge, eu vou para onde?"
+      - "Movimento que 90% dos 'gurus' não percebeu"
+      - "Quando a mídia fala X, investidores fazem Y"
+
+  - name: "Otimização Patrimonial"
+    percentage: 10
+    description: "Estratégias de proteção e performance"
+    examples:
+      - "Como empresários protegem patrimônio (3 estruturas secretas)"
+      - "Método que gera R$ 50k/mês passivos"
+      - "Sistema que elimina 95% do trabalho"
+
+# LinkedIn Content Pillars
+linkedin_pillars:
+  - name: "Análises de Mercado Premium"
+    description: "Demonstrar conhecimento aprofundado com dados exclusivos"
+
+  - name: "Estratégias Sofisticadas"
+    description: "Asset allocation, timing estratégico, arbitragem"
+
+  - name: "Planejamento Patrimonial"
+    description: "Proteção, diversificação, planejamento sucessório"
+
+  - name: "Expertise & Processos"
+    description: "Metodologia proprietária, due diligence, framework"
+
+  - name: "Análises Comparativas"
+    description: "Leilões vs mercado tradicional, performance longitudinal"
+
+# Competitive Positioning
+market_position:
+  market_focus: "Leilões para revenda/investimento"
+  ticket_average: "R$ 300k+"
+  competitor_positioning: "Genéricos"
+  our_positioning: "Específico e técnico"
+
+# Key Metrics & Proof Points
+proof_points:
+  discount_potential: "Até 40% de desconto"
+  legal_security: "Segurança jurídica completa"
+  network: "Rede de corretores parceiros"
+  methodology: "Análise que elimina 95% dos riscos"
+
+# Enemy/Anti-Brand
+enemy:
+  primary: "Complexidade desnecessária"
+  secondary:
+    - "Mercado tradicional com margens pequenas"
+    - "Investimentos conservadores com baixo retorno"
+    - "Gestores que escondem melhores estratégias"

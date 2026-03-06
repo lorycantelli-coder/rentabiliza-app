@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit, Roboto_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Header, Footer } from "@/components/layout";
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 const robotoMono = Roboto_Mono({ subsets: ['latin'], variable: '--font-mono' });
@@ -19,21 +18,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rentabiliza - IA Preditiva para Investimentos | 34% Acima do Mercado",
-  description: "IA antecipa padrões 48h antes do mercado reagir. Investimentos inteligentes para executivos que não têm tempo de virar especialistas. Resultados auditados: 34% acima do mercado.",
-  keywords: ["investimentos", "IA preditiva", "rentabiliza", "análise de mercado", "inteligência artificial", "finanças", "gestão de patrimônio"],
+  title: "Rentabiliza Brand Book - Design System & Visual Identity",
+  description: "Guia oficial de marca da Rentabiliza. Design system completo com fundamentos visuais, tipografia, cores, tom de voz e aplicações práticas.",
+  keywords: ["brand book", "design system", "visual identity", "rentabiliza", "brand guidelines", "design guide"],
   authors: [{ name: "Rentabiliza" }],
   openGraph: {
-    title: "Rentabiliza - IA Preditiva para Investimentos",
-    description: "34% acima do mercado. IA antecipa padrões 48h antes. Resultados auditados.",
-    url: "https://rentabiliza.com",
-    siteName: "Rentabiliza",
+    title: "Rentabiliza Brand Book",
+    description: "Guia oficial de marca e design system da Rentabiliza.",
+    url: "https://next-designer-app.vercel.app",
+    siteName: "Rentabiliza Brand Book",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Rentabiliza - IA Preditiva",
+        alt: "Rentabiliza Brand Book",
       },
     ],
     locale: "pt_BR",
@@ -41,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rentabiliza - IA Preditiva para Investimentos",
-    description: "34% acima do mercado. IA antecipa padrões 48h antes. Resultados auditados.",
+    title: "Rentabiliza Brand Book",
+    description: "Guia oficial de marca e design system da Rentabiliza.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -69,11 +68,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <TooltipProvider>
-          <Header />
-          <main className="pt-16">
-            {children}
-          </main>
-          <Footer />
+          {children}
         </TooltipProvider>
       </body>
     </html>
