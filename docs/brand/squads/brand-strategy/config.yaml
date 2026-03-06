@@ -1,0 +1,175 @@
+---
+metadata:
+  name: Brand Strategy Squad
+  version: 1.0.0
+  created_at: '2026-03-04'
+  domain: Brand Strategy & Identity
+  purpose: |
+    Elite squad of brand strategists to create comprehensive brand documentation,
+    validate brand identity systems, and apply world-class frameworks to brand projects.
+
+squad:
+  orchestrator: brand-chief
+
+  agents:
+    # TIER 0: Strategic Foundation (Diagnosis)
+    - id: brand-chief
+      name: Brand Strategy Orchestrator
+      role: Squad coordinator and strategic integrator
+      tier: 0
+      purpose: "Coordinate all brand strategists and integrate their perspectives"
+
+    # TIER 1: Core Identity Architects (Masters)
+    - id: david-aaker
+      name: David Aaker
+      role: Brand Identity Planning Expert
+      tier: 1
+      framework: Brand Identity Planning Model
+      mind_dna: david-aaker-mind-dna.yaml
+      specialty: |
+        - Brand Vision Model (4 perspectives)
+        - Core vs Extended Identity
+        - Brand Equity measurement
+        - Brand Portfolio architecture
+
+    - id: jean-noel-kapferer
+      name: Jean-Noël Kapferer
+      role: Brand Identity Prism Specialist
+      tier: 1
+      framework: Brand Identity Prism
+      mind_dna: jean-noel-kapferer-mind-dna.yaml
+      specialty: |
+        - 6-facet identity prism
+        - Identity vs Image distinction
+        - Luxury brand strategy
+        - European holistic approach
+
+    - id: kevin-keller
+      name: Kevin Lane Keller
+      role: Brand Equity Measurement Expert
+      tier: 1
+      framework: CBBE Model
+      mind_dna: kevin-lane-keller-mind-dna.yaml
+      specialty: |
+        - Customer-Based Brand Equity pyramid
+        - Brand resonance building
+        - Measurement frameworks
+        - Sequential brand building
+
+    # TIER 2: Specialized Strategists (Systematizers)
+    - id: alina-wheeler
+      name: Alina Wheeler
+      role: Brand Identity Design Practitioner
+      tier: 2
+      framework: Designing Brand Identity Process
+      mind_dna: alina-wheeler-mind-dna.yaml
+      specialty: |
+        - 5-phase design process
+        - Brand touchpoints
+        - Visual identity systems
+        - Practical implementation
+
+    - id: erich-joachimsthaler
+      name: Erich Joachimsthaler
+      role: Brand Leadership Strategist
+      tier: 2
+      framework: Brand Leadership Model
+      mind_dna: erich-joachimsthaler-mind-dna.yaml
+      specialty: |
+        - Organizational transformation
+        - Brand architecture
+        - Brand relationship spectrum
+        - Strategic leadership
+
+    - id: jenni-romaniuk
+      name: Jenni Romaniuk
+      role: Distinctive Assets Researcher
+      tier: 2
+      framework: Distinctive Brand Assets
+      mind_dna: jenni-romaniuk-mind-dna.yaml
+      specialty: |
+        - Fame × Uniqueness grid
+        - Memory structures
+        - Evidence-based measurement
+        - Mental availability
+
+    # TIER 3: Foundational Strategists (Legacy)
+    - id: ries-trout
+      name: Al Ries & Jack Trout
+      role: Positioning Experts
+      tier: 3
+      framework: Positioning Framework
+      mind_dna: al-ries-jack-trout-mind-dna.yaml
+      specialty: |
+        - Mental positioning
+        - Owning a word
+        - 22 Immutable Laws
+        - Warfare strategies
+
+    - id: leslie-chernatony
+      name: Leslie de Chernatony
+      role: Brand Management Professor
+      tier: 3
+      framework: Brand Vision to Evaluation
+      mind_dna: leslie-de-chernatony-mind-dna.yaml
+      specialty: |
+        - End-to-end process
+        - Organizational culture
+        - Brand evaluation
+        - Academic-practitioner bridge
+
+workflows:
+  - name: create-brand-documentation
+    description: "Create complete brand documentation in YAML"
+    phases:
+      - research: "Analyze existing brand materials"
+      - strategy: "Define brand identity using combined frameworks"
+      - design: "Create visual and verbal identity systems"
+      - documentation: "Generate structured YAML files"
+      - validation: "Quality check against all frameworks"
+
+  - name: validate-brand-identity
+    description: "Validate existing brand against world-class standards"
+    phases:
+      - audit: "Assess current brand state"
+      - gap_analysis: "Identify weaknesses using all frameworks"
+      - recommendations: "Suggest improvements"
+      - implementation: "Guide fixes"
+
+tasks:
+  - create-brand-core.md
+  - create-brand-voice.md
+  - create-positioning-strategy.md
+  - validate-brand-identity.md
+  - design-visual-system.md
+  - measure-brand-equity.md
+  - build-distinctive-assets.md
+  - create-brand-architecture.md
+
+handoffs:
+  brand-chief:
+    delegates_to:
+      - david-aaker: "When need brand identity planning"
+      - jean-noel-kapferer: "When need holistic identity prism"
+      - kevin-keller: "When need brand equity measurement"
+      - alina-wheeler: "When need visual design process"
+      - erich-joachimsthaler: "When need organizational transformation"
+      - jenni-romaniuk: "When need asset measurement"
+      - ries-trout: "When need positioning strategy"
+      - leslie-chernatony: "When need complete evaluation"
+
+quality_gates:
+  - SC_AGT_001: "All agents pass smoke tests"
+  - BRAND_COHERENCE: "Identity consistent across all frameworks"
+  - MEASUREMENT_READY: "Can be measured using Keller & Romaniuk frameworks"
+  - IMPLEMENTATION_FEASIBLE: "Wheeler process confirms deliverability"
+
+project_application:
+  target: "Rentabiliza Brand Book"
+  goal: |
+    Create complete YAML documentation structure for Rentabiliza brand:
+    - brand/identity/ (core, voice, positioning, archetypes)
+    - brand/foundation/ (colors, typography, spacing, logo)
+    - brand/evidence/ (metrics, testimonials, competitive analysis)
+    - brand/narrative/ (customer journey, messaging, content guidelines)
+    - brand/system/ (components, patterns, templates)

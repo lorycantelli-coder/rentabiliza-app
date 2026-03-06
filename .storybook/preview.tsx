@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react'
 import React from 'react'
 import { TooltipProvider } from '../components/ui/tooltip'
 import '../app/globals.css'
+import './storybook.css'
 
 const preview: Preview = {
   parameters: {
@@ -17,19 +18,24 @@ const preview: Preview = {
     },
 
     backgrounds: {
-      default: 'light',
+      default: 'rentabiliza-navy',
       values: [
+        { name: 'rentabiliza-navy', value: '#040812' },
+        { name: 'rentabiliza-surface', value: '#0A1326' },
         { name: 'light', value: '#ffffff' },
-        { name: 'dark', value: '#0a0a0a' },
       ],
     },
+
+    layout: 'centered',
   },
 
   decorators: [
-    (Story) => React.createElement(
-      TooltipProvider,
-      null,
-      React.createElement(Story)
+    (Story) => (
+      <div className="min-h-screen bg-background text-foreground antialiased">
+        <TooltipProvider>
+          <Story />
+        </TooltipProvider>
+      </div>
     ),
   ],
 };

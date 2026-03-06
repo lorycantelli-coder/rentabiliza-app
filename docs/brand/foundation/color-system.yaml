@@ -1,0 +1,279 @@
+---
+metadata:
+  schema: brand.foundation.color_system
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Wheeler Visual Identity + Kapferer Physique facet"
+
+color_system:
+  brand_essence: "Sofisticação (Navy) + Prosperidade (Gold) + Clareza (White)"
+
+  primary_colors:
+    - name: "Prosperity Gold"
+      role: "Primary accent, CTAs, highlights"
+      hex: "#DCA405"
+      rgb: "rgb(220, 164, 5)"
+      hsl: "hsl(43, 96%, 44%)"
+      pantone: "Pantone 7555 C (approximation)"
+      cmyk: "c(0) m(25) y(98) k(14)"
+
+      psychology:
+        - "Prosperity, wealth, achievement"
+        - "Premium without pretension"
+        - "Evidence of results (gold = winning)"
+
+      usage:
+        primary:
+          - "Call-to-action buttons"
+          - "Performance metrics highlights (34%)"
+          - "Icons and micro-interactions"
+          - "Chart positive trends"
+        secondary:
+          - "Section dividers"
+          - "Hover states"
+          - "Success messages"
+        avoid:
+          - "Large background areas (too bright)"
+          - "Body text (readability)"
+
+      accessibility:
+        on_navy: "AAA (contrast 10.3:1)"
+        on_white: "AA (contrast 4.2:1)"
+        text_minimum: "18px bold on white"
+
+      variations:
+        light: "#F5C542"
+        dark: "#B8890 4"
+        muted: "#DCA405/60"
+
+    - name: "Deep Navy"
+      role: "Primary brand color, backgrounds, depth"
+      hex: "#040812"
+      rgb: "rgb(4, 8, 18)"
+      hsl: "hsl(223, 64%, 4%)"
+      pantone: "Black 6 C (approximation)"
+      cmyk: "c(78) m(56) y(0) k(93)"
+
+      psychology:
+        - "Sophistication, trust, professionalism"
+        - "Technical precision, data-driven"
+        - "Depth and substance"
+
+      usage:
+        primary:
+          - "Primary backgrounds"
+          - "Headers and navigation"
+          - "Large type (headlines)"
+          - "App dark mode"
+        secondary:
+          - "Shadows and depth"
+          - "Border overlays"
+        avoid:
+          - "Never on black (no contrast)"
+
+      accessibility:
+        white_text: "AAA (contrast 18.4:1)"
+        gold_text: "AAA (contrast 10.3:1)"
+
+      variations:
+        lighter: "#0A1326"
+        muted: "#0D1F3C"
+        alpha: "#040812/95"
+
+  neutral_colors:
+    - name: "Pure White"
+      role: "Backgrounds, text, clarity"
+      hex: "#FFFFFF"
+      rgb: "rgb(255, 255, 255)"
+
+      usage:
+        primary:
+          - "Light mode backgrounds"
+          - "Text on navy"
+          - "Card surfaces"
+          - "Clean spacing"
+        avoid:
+          - "Pure white text on gold (use navy)"
+
+      variations:
+        off_white: "#F8F9FA"
+        warm_white: "#FAFAF8"
+
+  semantic_colors:
+    success:
+      primary: "#10B981"
+      light: "#D1FAE5"
+      dark: "#065F46"
+      usage: "Positive returns, confirmations"
+
+    error:
+      primary: "#EF4444"
+      light: "#FEE2E2"
+      dark: "#991B1B"
+      usage: "Losses, warnings, errors"
+
+    warning:
+      primary: "#F59E0B"
+      light: "#FEF3C7"
+      dark: "#92400E"
+      usage: "Cautions, pending actions"
+
+    info:
+      primary: "#3B82F6"
+      light: "#DBEAFE"
+      dark: "#1E40AF"
+      usage: "Information, tips"
+
+  gradient_system:
+    - name: "Hero Gradient"
+      type: "Linear gradient"
+      direction: "to bottom-right (135deg)"
+      stops:
+        - color: "#040812"
+          position: "0%"
+        - color: "#0A1326"
+          position: "50%"
+        - color: "#0D1F3C"
+          position: "100%"
+      usage: "Hero sections, large backgrounds"
+      css: "background: linear-gradient(135deg, #040812 0%, #0A1326 50%, #0D1F3C 100%);"
+
+    - name: "Gold Accent Gradient"
+      type: "Linear gradient"
+      direction: "to bottom-right (135deg)"
+      stops:
+        - color: "#DCA405"
+          position: "0%"
+        - color: "#F5C542"
+          position: "100%"
+      usage: "CTAs, featured cards, premium elements"
+      css: "background: linear-gradient(135deg, #DCA405 0%, #F5C542 100%);"
+
+    - name: "Subtle Glow"
+      type: "Radial gradient"
+      shape: "Ellipse"
+      stops:
+        - color: "#DCA405/10"
+          position: "0%"
+        - color: "transparent"
+          position: "70%"
+      usage: "Decorative glows, ambient lighting"
+      css: "background: radial-gradient(ellipse, rgba(220,164,5,0.1) 0%, transparent 70%);"
+
+  usage_rules:
+    hierarchy:
+      - level: "Primary action"
+        color: "Prosperity Gold (#DCA405)"
+        example: "Criar Portfólio button"
+
+      - level: "Secondary action"
+        color: "White/10 with border"
+        example: "Ver Documentação"
+
+      - level: "Tertiary action"
+        color: "Text link (gold hover)"
+        example: "Saiba mais →"
+
+    ratios:
+      recommended: "70% Navy / 20% White / 10% Gold"
+      maximum_gold: "15% (avoid overwhelming)"
+      minimum_white_space: "30% (breathing room)"
+
+    color_pairings:
+      excellent:
+        - "Navy background + White text + Gold accents"
+        - "White background + Navy text + Gold highlights"
+        - "Gold background + Navy text"
+
+      avoid:
+        - "Gold background + White text (readability)"
+        - "Navy text on Navy background"
+        - "Gold on Gold"
+
+  accessibility:
+    wcag_compliance: "AA minimum, AAA preferred"
+
+    text_contrast_ratios:
+      - combination: "White on Navy"
+        ratio: "18.4:1"
+        level: "AAA"
+
+      - combination: "Navy on White"
+        ratio: "18.4:1"
+        level: "AAA"
+
+      - combination: "Gold on Navy"
+        ratio: "10.3:1"
+        level: "AAA"
+
+      - combination: "Navy on Gold"
+        ratio: "8.5:1"
+        level: "AAA"
+
+      - combination: "Gold on White"
+        ratio: "4.2:1"
+        level: "AA (18px+)"
+
+    color_blind_safe:
+      note: "Navy-Gold-White palette works for all color blindness types"
+      protanopia: "✅ Distinguishable"
+      deuteranopia: "✅ Distinguishable"
+      tritanopia: "✅ Distinguishable"
+
+  implementation:
+    css_variables:
+      code: |
+        :root {
+          /* Primary */
+          --color-gold: #DCA405;
+          --color-gold-light: #F5C542;
+          --color-gold-dark: #B88904;
+
+          --color-navy: #040812;
+          --color-navy-light: #0A1326;
+          --color-navy-muted: #0D1F3C;
+
+          --color-white: #FFFFFF;
+
+          /* Semantic */
+          --color-success: #10B981;
+          --color-error: #EF4444;
+          --color-warning: #F59E0B;
+          --color-info: #3B82F6;
+        }
+
+    tailwind_config:
+      code: |
+        module.exports = {
+          theme: {
+            extend: {
+              colors: {
+                accent: '#DCA405',
+                'accent-light': '#F5C542',
+                navy: {
+                  DEFAULT: '#040812',
+                  light: '#0A1326',
+                  muted: '#0D1F3C',
+                }
+              }
+            }
+          }
+        }
+
+references:
+  source_docs:
+    - "app/brandbook/guidelines/page.tsx (Color section)"
+    - "Tailwind config"
+    - "Landing page implementation"
+
+  kapferer_facets:
+    physique: "Navy (substance), Gold (achievement), White (clarity)"
+    personality: "Sophisticated (Navy), Prosperous (Gold), Clear (White)"
+
+frameworks_applied:
+  - "Wheeler Visual Identity System"
+  - "Kapferer Brand Identity Prism (Physique facet)"
+  - "Romaniuk Distinctive Brand Assets (color as DBA)"

@@ -1,0 +1,50 @@
+---
+metadata:
+  schema: brand.foundation.components
+  version: 1.0.0
+
+components:
+  buttons:
+    primary:
+      background: "Gold (#DCA405)"
+      text: "Navy (#040812)"
+      hover: "Gold Light (#F5C542)"
+      font: "Inter Bold"
+      padding: "16px 32px"
+      border_radius: "12px"
+
+    secondary:
+      background: "White/10"
+      text: "White"
+      hover: "White/20"
+      border: "1px solid White/20"
+      padding: "16px 32px"
+      border_radius: "12px"
+
+  cards:
+    default:
+      background: "Black or Navy variations"
+      border: "1px solid White/10"
+      border_radius: "12px"
+      padding: "32px"
+      hover_border: "Gold/30"
+
+  inputs:
+    default:
+      background: "Navy Light (#0A1326)"
+      border: "1px solid White/10"
+      text: "White"
+      placeholder: "White/40"
+      focus_border: "Gold (#DCA405)"
+      padding: "12px 16px"
+      border_radius: "8px"
+
+  badges:
+    accent:
+      background: "Gold (#DCA405)"
+      text: "Navy (#040812)"
+      font: "Roboto Mono"
+      size: "10px"
+      tracking: "0.3em"
+      padding: "4px 12px"
+      border_radius: "999px"

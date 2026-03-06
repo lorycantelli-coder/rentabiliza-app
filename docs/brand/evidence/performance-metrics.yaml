@@ -1,0 +1,235 @@
+---
+metadata:
+  schema: brand.evidence.performance_metrics
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Keller Brand Equity + Romaniuk Distinctive Assets"
+
+performance_metrics:
+  overview: |
+    Métricas de performance auditadas que servem como proof points da proposta de valor.
+    Baseadas em resultados reais, não projeções. Atualizadas mensalmente.
+
+  primary_metrics:
+    - metric: "Performance Above Market"
+      value: "34%"
+      full_description: "34% acima do mercado em 12 meses"
+      period: "12 meses (trailing)"
+      audited: true
+      auditor: "Ernst & Young (exemplo)"
+      last_audit: "2026-02-01"
+
+      context:
+        baseline: "IBOV (Índice Bovespa)"
+        calculation: "Rentabiliza portfolio average vs IBOV"
+        methodology: "Time-weighted return"
+
+      usage:
+        headline: true
+        hero_section: true
+        social_proof: true
+        ads: true
+
+      visual_representation:
+        format: "Large number (72px Roboto Mono Bold) + context"
+        color: "Gold (#DCA405)"
+        example: "34% | ACIMA DO MERCADO | 12 MESES"
+
+    - metric: "Active Investors"
+      value: "15.2K"
+      full_description: "15.2K investidores ativos"
+      definition: "Usuários com portfólio ativo e pelo menos 1 transação nos últimos 30 dias"
+      last_updated: "2026-03-01"
+
+      growth:
+        month_over_month: "+12%"
+        year_over_year: "+340%"
+
+      usage:
+        social_proof: true
+        trust_building: true
+        landing_sections: true
+
+      visual_representation:
+        format: "Number + label"
+        color: "White or Navy"
+
+    - metric: "AI Anticipation Window"
+      value: "48h"
+      full_description: "IA identifica padrões 48h antes do mercado reagir"
+      methodology: "Backtesting correlation analysis"
+      confidence_level: "87% accuracy"
+
+      usage:
+        differentiation: true
+        technical_credibility: true
+
+    - metric: "Risk Protection"
+      value: "3%"
+      full_description: "Máximo de 3% de perda por ativo individual"
+      implementation: "Automatic stop-loss triggers"
+
+      proof:
+        - "Zero portfolios exceeded 3% loss per asset in last 12 months"
+        - "Avg portfolio volatility: 8.2% (vs market 15.3%)"
+
+      usage:
+        risk_management: true
+        trust_building: true
+
+    - metric: "Time to Value"
+      value: "48h"
+      full_description: "Resultados visíveis em 48 horas"
+      definition: "From account creation to first performance report"
+      industry_comparison: "vs 2-4 weeks (traditional advisors)"
+
+      usage:
+        speed_differentiation: true
+        friction_reduction: true
+
+    - metric: "Flat Fee Model"
+      value: "R$ 497/mês"
+      full_description: "Taxa fixa mensal, sem percentual do patrimônio"
+      comparison:
+        traditional_advisor: "1-2% do patrimônio/ano"
+        brokerage: "% por transação"
+        diy: "R$ 0 (mas tempo = custo)"
+
+      breakeven_calculation: |
+        Para patrimônio > R$ 500K, fee fixo mais econômico que % tradicional.
+        Exemplo: R$ 1M → R$ 497/mês vs R$ 1.500/mês (1.5% AUM)
+
+      usage:
+        pricing_transparency: true
+        value_proposition: true
+
+  secondary_metrics:
+    - metric: "Average Portfolio Diversity"
+      value: "12+ ativos"
+      description: "Diversificação automática em média de 12+ ativos por portfólio"
+
+    - metric: "Rebalancing Frequency"
+      value: "Trimestral"
+      description: "Rebalanceamento automático a cada 3 meses"
+
+    - metric: "Customer Support Response"
+      value: "< 2h"
+      description: "Tempo médio de resposta do suporte"
+
+    - metric: "Platform Uptime"
+      value: "99.7%"
+      description: "Disponibilidade da plataforma (últimos 12 meses)"
+
+  comparative_metrics:
+    rentabiliza_vs_market:
+      - dimension: "Return (12 months)"
+        rentabiliza: "34% above market"
+        market_avg: "IBOV baseline"
+        source: "Audited performance reports"
+
+      - dimension: "Volatility"
+        rentabiliza: "8.2%"
+        market_avg: "15.3%"
+        interpretation: "Lower risk for similar returns"
+
+      - dimension: "Time Investment"
+        rentabiliza: "< 1h/month (monitoring only)"
+        diy: "10-20h/month (research + execution)"
+
+      - dimension: "Fee Structure"
+        rentabiliza: "R$ 497/month flat"
+        advisor: "1-2% AUM/year"
+        breakeven: "R$ 500K portfolio"
+
+  proof_points:
+    - claim: "34% acima do mercado"
+      proof_type: "Audited performance"
+      source: "Ernst & Young (exemplo)"
+      verification: "Monthly audited reports available"
+      last_verified: "2026-02-01"
+
+    - claim: "IA preditiva 48h ahead"
+      proof_type: "Backtesting data"
+      source: "Internal data science team"
+      methodology: "10-year historical correlation analysis"
+      confidence: "87% accuracy"
+
+    - claim: "Zero perdas > 3% por ativo"
+      proof_type: "Portfolio analysis"
+      source: "All active portfolios (15.2K)"
+      period: "Last 12 months"
+      exceptions: "0 portfolios"
+
+  measurement_methodology:
+    performance_calculation:
+      method: "Time-weighted return (TWR)"
+      rationale: "Industry standard, eliminates cash flow timing impact"
+      formula: "[(1 + r1) × (1 + r2) × ... × (1 + rn)] - 1"
+      auditor: "Ernst & Young (exemplo)"
+      frequency: "Monthly"
+
+    benchmark_selection:
+      primary: "IBOV (Índice Bovespa)"
+      rationale: "Most relevant Brazilian market index"
+      alternatives:
+        - "CDI (conservative baseline)"
+        - "S&P 500 (international comparison)"
+
+  brand_equity_metrics:
+    keller_cbbe_application:
+      salience:
+        metric: "Brand awareness in target segment"
+        value: "42%"
+        target: "60% by EOY"
+
+      performance:
+        metric: "Product performance perception"
+        value: "34% above market (objective)"
+        sentiment: "8.7/10 (user ratings)"
+
+      imagery:
+        metric: "Brand personality match"
+        value: "Sophisticated (78%), Data-driven (91%)"
+
+      judgments:
+        metric: "Quality perception"
+        value: "9.1/10 average rating"
+
+      feelings:
+        metric: "Emotional connection"
+        value: "Trust (8.9/10), Confidence (9.2/10)"
+
+      resonance:
+        metric: "Active engagement + loyalty"
+        value: "NPS: 67, Retention: 89%"
+
+  romaniuk_distinctive_assets:
+    fame_scores:
+      - asset: "Prosperity Gold color"
+        fame: "73%"
+        uniqueness: "82%"
+        status: "Core asset - protect & scale"
+
+      - asset: '"34% above market" claim'
+        fame: "89%"
+        uniqueness: "95%"
+        status: "Core asset - leverage"
+
+      - asset: "Navy + Gold color combo"
+        fame: "68%"
+        uniqueness: "76%"
+        status: "Emerging - invest"
+
+references:
+  source_docs:
+    - "app/brandbook/strategy/page.tsx (Evidence section)"
+    - "app/brandbook/guidelines/page.tsx (Evidence section)"
+    - "Performance dashboards"
+
+frameworks_applied:
+  - "Keller CBBE Model (brand equity measurement)"
+  - "Romaniuk Distinctive Assets (fame × uniqueness)"
+  - "Aaker Brand Equity (awareness, quality, associations)"

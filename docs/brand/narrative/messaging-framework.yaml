@@ -1,0 +1,26 @@
+---
+metadata:
+  schema: brand.narrative.messaging_framework
+  version: 1.0.0
+
+messaging_hierarchy:
+  level_1_headline:
+    purpose: "Ganhar atenção em 3 segundos"
+    formula: "[Resultado específico] através de [Tecnologia] sem [Objeção]"
+    examples:
+      - "34% acima do mercado através de IA preditiva sem virar especialista"
+      - "R$ 2,3M em oportunidades identificadas sem análise manual"
+
+  level_2_subheadline:
+    purpose: "Explicar o como em 10 segundos"
+    formula: "[Tecnologia] [Ação específica] [Timeframe] antes de [Alternativa]"
+    examples:
+      - "IA identifica padrões 48h antes do mercado reagir"
+      - "Diversificação automática em 3 cliques vs 4 dias de análise"
+
+  level_3_body:
+    purpose: "Provar com dados em 30 segundos"
+    elements: ["Métrica auditada", "Processo transparente", "Garantia específica"]
+    examples:
+      - "Performance auditada mensalmente por [Auditor]"
+      - "Você nunca perde mais que 3% em um único ativo"

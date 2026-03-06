@@ -1,0 +1,25 @@
+---
+metadata:
+  schema: brand.narrative.customer_journey
+  version: 1.0.0
+
+journey_stages:
+  awareness:
+    touchpoints: ["LinkedIn Ads", "Google Search", "Content Marketing"]
+    mindset: "Frustrado com performance ou tempo gasto"
+    messaging: "34% acima do mercado. IA preditiva, não reativa."
+
+  consideration:
+    touchpoints: ["Website", "Demo", "Testimonials"]
+    mindset: "Comparando com assessor atual ou robo-advisor"
+    messaging: "R$ 497 flat vs % do patrimônio. Tecnologia proprietária."
+
+  conversion:
+    touchpoints: ["Trial", "Onboarding", "Primeiro portfólio"]
+    mindset: "Testando se IA realmente funciona"
+    messaging: "Resultados em 48h. Performance auditada mensalmente."
+
+  retention:
+    touchpoints: ["Dashboard", "Alertas", "Reports"]
+    mindset: "Monitorando performance vs promessas"
+    messaging: "Dados continuam provando. Você economiza 15h/mês."

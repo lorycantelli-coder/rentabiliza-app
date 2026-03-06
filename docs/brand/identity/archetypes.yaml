@@ -1,0 +1,194 @@
+---
+metadata:
+  schema: brand.identity.archetypes
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Aaker Brand Personality + Jung Archetypes"
+
+brand_archetypes:
+  overview: |
+    Rentabiliza combina 3 arquétipos em proporções específicas para criar
+    uma personalidade de marca única: técnica (Sage), confiável (Ruler),
+    inovadora (Creator).
+
+  primary_archetype:
+    name: "The Sage"
+    weight: 60%
+    description: "O Expert Técnico que Domina Dados"
+
+    core_traits:
+      - "Conhecimento profundo e expertise técnica"
+      - "Busca pela verdade através de dados"
+      - "Educação e empoderamento através de informação"
+      - "Análise objetiva, não emoção"
+
+    voice_characteristics:
+      - "Técnico mas acessível"
+      - "Baseado em evidências"
+      - "Educativo sem ser condescendente"
+      - "Transparente sobre limitações"
+
+    messaging_examples:
+      - do: "IA identifica padrões 48h antes do mercado reagir"
+      - do: "Backtest de 10 anos comprova consistência"
+      - dont: "Confie em nós, somos especialistas"
+      - dont: "Segredo dos milionários revelado"
+
+    visual_expression:
+      - "Design limpo e técnico"
+      - "Dados visualizados com clareza"
+      - "Tipografia sans-serif para interface"
+      - "Gráficos e métricas em destaque"
+
+  secondary_archetype:
+    name: "The Ruler"
+    weight: 25%
+    description: "O Líder Confiável que Traz Ordem"
+
+    core_traits:
+      - "Controle e previsibilidade"
+      - "Estrutura e organização"
+      - "Responsabilidade e accountability"
+      - "Liderança através de competência"
+
+    voice_characteristics:
+      - "Assertivo e confiante"
+      - "Decisões claras, sem ambiguidade"
+      - "Autoridade baseada em resultados"
+      - "Comandante mas não autoritário"
+
+    messaging_examples:
+      - do: "Você nunca perde mais que 3% em um único ativo"
+      - do: "Rebalanceamento automático trimestral"
+      - dont: "Talvez consigamos reduzir seu risco"
+      - dont: "Tente nossa plataforma"
+
+    visual_expression:
+      - "Estrutura de grid rigorosa"
+      - "Hierarquia visual clara"
+      - "Navy como cor de autoridade"
+      - "Espaçamento consistente e preciso"
+
+  tertiary_archetype:
+    name: "The Creator"
+    weight: 15%
+    description: "O Inovador que Constrói Futuro"
+
+    core_traits:
+      - "Inovação através de tecnologia"
+      - "Construção de algo duradouro"
+      - "Visão de futuro diferente"
+      - "Criatividade aplicada a problemas reais"
+
+    voice_characteristics:
+      - "Visionário mas prático"
+      - "Foco em construir, não destruir"
+      - "Futuro tangível, não fantasia"
+      - "Inovação com propósito"
+
+    messaging_examples:
+      - do: "IA preditiva transforma como você investe"
+      - do: "Construa patrimônio enquanto dorme"
+      - dont: "Revolucionamos o mercado financeiro"
+      - dont: "O futuro dos investimentos chegou"
+
+    visual_expression:
+      - "Gold como símbolo de criação de valor"
+      - "Gradientes sutis (passado → futuro)"
+      - "Elementos de IA/tecnologia sem ser sci-fi"
+      - "Design que evolui, não apenas decora"
+
+archetype_balance:
+  decision_framework: |
+    Quando há conflito entre arquétipos, a hierarquia é:
+    1. Sage (dados, evidência) SEMPRE tem prioridade
+    2. Ruler (controle, previsibilidade) valida a execução
+    3. Creator (inovação) adiciona diferenciação
+
+  sage_dominance:
+    - "Mensagens SEMPRE baseadas em dados"
+    - "Transparência sobre como IA funciona"
+    - "Educação sobre riscos e limitações"
+    - "Zero marketing aspiracional sem evidência"
+
+  ruler_manifestation:
+    - "Processos claros e previsíveis"
+    - "Garantias específicas (3% max loss)"
+    - "Estrutura de preço simples (R$ 497 flat)"
+    - "Controle total sobre portfólio"
+
+  creator_touch:
+    - "IA preditiva (não reativa) como diferencial"
+    - "Visão de futuro onde IA trabalha por você"
+    - "Construção de patrimônio de longo prazo"
+    - "Plataforma que evolui continuamente"
+
+usage_guidelines:
+  content_creation:
+    - "70% Sage: dados, análise, educação"
+    - "20% Ruler: controle, estrutura, confiança"
+    - "10% Creator: visão, futuro, inovação"
+
+  tone_application:
+    sage_contexts:
+      - "Blog posts técnicos"
+      - "Documentação de IA"
+      - "Performance reports"
+      - "FAQ e suporte"
+
+    ruler_contexts:
+      - "Onboarding e processos"
+      - "Garantias e políticas"
+      - "Dashboard e controles"
+      - "Comunicação de risco"
+
+    creator_contexts:
+      - "Visão de produto"
+      - "Lançamento de features"
+      - "Posicionamento competitivo"
+      - "Brand manifesto"
+
+anti_archetypes:
+  avoid:
+    - name: "The Jester"
+      reason: "Humor pode minar seriedade financeira"
+      exception: "Leveza em contextos não-críticos (social media)"
+
+    - name: "The Lover"
+      reason: "Apelo emocional excessivo contradiz dados"
+      exception: "Empatia em customer service"
+
+    - name: "The Hero"
+      reason: "Salvadorismo é contrário a empoderamento"
+      exception: "Histórias de sucesso de clientes"
+
+    - name: "The Magician"
+      reason: "Promessas mágicas contradizem transparência"
+      exception: "NUNCA - zero tolerância"
+
+competitive_positioning:
+  vs_traditional_advisors:
+    archetype: "Sage > Ruler (dados > confiança pessoal)"
+    message: "Expertise técnica objetiva, não relacionamento subjetivo"
+
+  vs_robo_advisors:
+    archetype: "Creator > Sage (inovação > commodity)"
+    message: "IA preditiva proprietária, não algoritmos genéricos"
+
+  vs_diy_platforms:
+    archetype: "Ruler > Sage (estrutura > complexidade)"
+    message: "Controle simplificado, não abandono técnico"
+
+references:
+  frameworks_applied:
+    - "Carl Jung - 12 Archetypes"
+    - "Aaker Brand Personality Dimensions"
+    - "Margaret Mark - Hero and the Outlaw"
+
+  source_docs:
+    - "brand-core.yaml (values alignment)"
+    - "brand-voice.yaml (tone manifestation)"
+    - "positioning.yaml (archetype in market context)"

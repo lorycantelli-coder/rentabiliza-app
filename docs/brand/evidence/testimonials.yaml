@@ -1,0 +1,45 @@
+---
+metadata:
+  schema: brand.evidence.testimonials
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+
+testimonials:
+  - id: "test-001"
+    author: "Ricardo Costa"
+    role: "CEO"
+    company: "TechStart Ventures"
+    location: "São Paulo, SP"
+    investment_profile: "R$ 450K investível"
+    date: "2025-12-15"
+    rating: 5
+    quote: "34% acima do Ibovespa em 12 meses. Dados auditados, zero promessas vazias. Exatamente o que executivos precisam."
+    highlights:
+      - "Performance: 34% vs 22% Ibovespa"
+      - "Tempo economizado: 15h/mês"
+      - "Período: 12 meses"
+
+  - id: "test-002"
+    author: "Mariana Alves"
+    role: "CFO"
+    company: "Logística Brasil"
+    location: "Rio de Janeiro, RJ"
+    investment_profile: "R$ 890K investível"
+    date: "2026-01-08"
+    rating: 5
+    quote: "IA antecipou a queda de 3 ativos 48h antes. Salvou R$ 47K em perdas. Isso é tecnologia preditiva de verdade."
+    highlights:
+      - "Perdas evitadas: R$ 47K"
+      - "Antecipação média: 48h"
+      - "Precisão: 8/10 alertas corretos"
+
+  - id: "test-003"
+    author: "Paulo Henrique"
+    role: "Founder"
+    company: "Startup Saúde Digital"
+    location: "Belo Horizonte, MG"
+    investment_profile: "R$ 200K investível"
+    date: "2025-11-22"
+    rating: 5
+    quote: "R$ 497 flat. Zero percentage do patrimônio. Finalmente um modelo de pricing que não me penaliza por crescer."

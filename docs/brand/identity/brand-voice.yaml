@@ -1,0 +1,241 @@
+---
+metadata:
+  schema: brand.identity.voice
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Kapferer Brand Identity Prism + Aaker Brand as Person"
+
+# Based on existing content from /brandbook/strategy (Brand Voice section)
+brand_voice:
+  overview: |
+    Voz direta, técnica, confiante e humana. Foco em dados específicos,
+    não generalizações. Zero jargão desnecessário, zero hedge words.
+
+  tone_dimensions:
+    - dimension: "Direct"
+      score: 9/10
+      description: "Frases curtas. Sem enrolação. Zero jargão desnecessário."
+      examples:
+        - do: "34% acima do mercado em 12 meses"
+        - dont: "Potencial de retorno superior à média do mercado"
+      signature_phrases:
+        - "34% acima do mercado em 12 meses"
+        - "3 cliques, resultados em 48h"
+        - "R$ 497/mês flat"
+
+    - dimension: "Technical"
+      score: 8/10
+      description: "Dados específicos, não generalizações. Métricas precisas, não 'muito bom'."
+      examples:
+        - do: "IA identifica padrões 48h antes do mercado reagir"
+        - dont: "Nossa IA é muito eficiente"
+      signature_phrases:
+        - "IA identifica padrões 48h antes do mercado reagir"
+        - "3% max loss automático"
+        - "Diversificação automática sem esforço manual"
+
+    - dimension: "Confident"
+      score: 9/10
+      description: "Afirmações sem hedge words. Declarações diretas, não condicionais."
+      examples:
+        - do: "Você nunca perde mais que 3% em um único ativo"
+        - dont: "Você pode ter proteção de até 3% por ativo"
+      signature_phrases:
+        - "Você nunca perde mais que 3% em um único ativo"
+        - "Diversifica automaticamente" (não "pode diversificar")
+        - "A IA trabalha. Os resultados são seus."
+
+    - dimension: "Human"
+      score: 7/10
+      description: "Tom conversacional, sem academicismo financeiro. Falamos como gente, não como robôs."
+      examples:
+        - do: "Enquanto você dorme, a IA trabalha"
+        - dont: "O sistema opera de forma contínua e autônoma"
+      signature_phrases:
+        - "Enquanto você dorme, a IA trabalha"
+        - "Você foca no que realmente importa"
+        - "Sem letras miúdas ou pegadinhas"
+
+vocabulary:
+  power_words:
+    always_use:
+      - "resultados" (não "potencial")
+      - "auditado" (não "verificado")
+      - "automático" (não "facilitado")
+      - "transparente" (não "claro")
+      - "dados" (não "informações")
+      - "específico" (não "detalhado")
+      - "garantia" (não "promessa")
+      - "prova" (não "evidência")
+
+    never_use:
+      - "talvez" | "pode ser" | "possivelmente"
+      - "muito bom" | "excelente" | "ótimo" (use números)
+      - "revolucionário" | "inovador" (use fatos)
+      - "solução" (use "plataforma" ou resultado específico)
+      - "potencial" (use resultado real)
+      - "facilita" (use "automatiza" ou ação específica)
+
+  technical_terms:
+    approved:
+      - "IA preditiva"
+      - "diversificação automática"
+      - "gestão de risco 3%"
+      - "rebalanceamento trimestral"
+      - "backtest de 10 anos"
+      - "performance auditada"
+
+    banned:
+      - "machine learning" (use "IA preditiva")
+      - "algoritmo proprietário" (use "IA preditiva")
+      - "otimização de portfólio" (use "diversificação automática")
+
+sentence_patterns:
+  approved_structures:
+    - pattern: "[Número específico] [resultado concreto] em [período]"
+      example: "34% acima do mercado em 12 meses"
+
+    - pattern: "[Ação] automaticamente"
+      example: "Diversifica automaticamente"
+
+    - pattern: "Você [ação simples], a IA [ação complexa]"
+      example: "Você investe, a IA otimiza"
+
+    - pattern: "Zero [problema]. [Benefício específico]."
+      example: "Zero jargão. Clareza total."
+
+  banned_structures:
+    - pattern: "Podemos ajudá-lo a..."
+      reason: "Vago e não-específico"
+      replace_with: "Geramos X resultado em Y tempo"
+
+    - pattern: "Nossa solução revolucionária..."
+      reason: "Marketing fluff"
+      replace_with: "A IA identifica..."
+
+    - pattern: "Acreditamos que..."
+      reason: "Opinion, não fact"
+      replace_with: "Dados mostram..."
+
+messaging_hierarchy:
+  level_1_tagline:
+    text: "A IA trabalha. Os resultados são seus."
+    usage: "Homepage hero, brand signature"
+    tone: "Confident + Simple"
+
+  level_2_headlines:
+    - "34% acima do mercado em 12 meses"
+    - "3 cliques, resultados em 48h"
+    - "R$ 497/mês. Zero surpresas."
+    usage: "Section headers, value props"
+    tone: "Direct + Technical"
+
+  level_3_body:
+    principles:
+      - "Comece com o número/dado"
+      - "Uma frase = uma ideia"
+      - "Verbos de ação, não abstrações"
+    example: |
+      A IA identifica padrões 48h antes do mercado reagir.
+      Diversifica automaticamente em 12+ ativos.
+      Você nunca perde mais que 3% em um único investimento.
+
+content_guidelines:
+  headlines:
+    max_length: 60
+    must_include: "Número específico OU benefício concreto"
+    tone: "Confident + Direct"
+    examples:
+      good:
+        - "34% acima do mercado"
+        - "3% máximo de perda por ativo"
+      bad:
+        - "Rentabilidade superior"
+        - "Controle total de risco"
+
+  body_copy:
+    sentence_length: "12-18 palavras (média)"
+    paragraph_length: "3-5 frases"
+    data_frequency: "Pelo menos 1 número a cada 2-3 frases"
+    tone: "Technical + Human"
+
+  CTAs:
+    structure: "[Ação específica] + [Resultado esperado]"
+    examples:
+      - "Criar portfólio → Resultados em 48h"
+      - "Ver performance → Dados auditados"
+      - "Começar grátis → 3 cliques"
+    avoid:
+      - "Saiba mais"
+      - "Entre em contato"
+      - "Descubra"
+
+personality_traits:
+  primary:
+    - trait: "Data-Driven"
+      manifestation: "Todo claim tem número ou fonte"
+      voice_signal: "34%, 48h, 3%, R$ 497"
+
+    - trait: "No-Bullshit"
+      manifestation: "Zero marketing fluff, só fatos"
+      voice_signal: "Sem letras miúdas, sem pegadinhas"
+
+    - trait: "Empowering"
+      manifestation: "Você no controle, IA como ferramenta"
+      voice_signal: "Você foca no que importa, IA cuida do resto"
+
+  secondary:
+    - trait: "Accessible"
+      manifestation: "Fintech complexo explicado simples"
+      voice_signal: "3 cliques, não jargão"
+
+immune_system:
+  auto_reject:
+    - type: "Vague claims"
+      examples:
+        - "Melhores resultados"
+        - "Alta performance"
+        - "Solução completa"
+      reason: "Não-mensurável, genérico"
+
+    - type: "Hedge words"
+      examples:
+        - "pode", "talvez", "possivelmente"
+        - "até X%" (implica variabilidade)
+      reason: "Mina confiança"
+
+    - type: "Jargão financeiro"
+      examples:
+        - "alpha", "beta", "sharpe ratio"
+        - "asset allocation"
+      reason: "Barreira de entrada"
+
+voice_evolution:
+  phase_1_awareness:
+    focus: "Proof (34% above market)"
+    tone_mix: "70% Direct + 30% Technical"
+    example: "34% acima do mercado. Auditado. 12 meses."
+
+  phase_2_consideration:
+    focus: "How it works (IA preditiva)"
+    tone_mix: "50% Technical + 40% Human + 10% Confident"
+    example: "A IA identifica padrões 48h antes. Diversifica automaticamente. Você monitora pelo app."
+
+  phase_3_decision:
+    focus: "Transparency (R$ 497, 3%)"
+    tone_mix: "60% Confident + 40% Direct"
+    example: "R$ 497/mês. Flat. 3% max loss por ativo. Zero surpresas."
+
+references:
+  source_docs:
+    - "app/brandbook/strategy/page.tsx (Brand Voice section)"
+    - "app/brandbook/guidelines/page.tsx (Voice section)"
+    - "Landing page headlines and copy"
+
+frameworks_applied:
+  - "Kapferer Brand Identity Prism (Personality facet)"
+  - "Aaker Brand as Person (personality, relationships)"
+  - "Romaniuk Distinctive Assets (verbal cues)"

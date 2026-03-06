@@ -1,0 +1,38 @@
+---
+metadata:
+  schema: brand.evidence.competitive_analysis
+  version: 1.0.0
+  business_unit: rentabiliza
+
+competitive_matrix:
+  rentabiliza:
+    category: "IA Preditiva"
+    pricing: "R$ 497/mês flat"
+    tech: "Proprietária"
+    human_touch: "Baixo"
+    target: "Executivos 30-55"
+    diferencial: "Antecipação 48h"
+
+  corretoras_tradicionais:
+    category: "Full service"
+    pricing: "0.5-2% patrimônio/ano"
+    tech: "Básica"
+    human_touch: "Alto"
+    target: "Todos"
+    diferencial: "Relacionamento"
+
+  robo_advisors:
+    category: "Automação passiva"
+    pricing: "0.3-0.8% patrimônio/ano"
+    tech: "Genérica"
+    human_touch: "Zero"
+    target: "Jovens <35"
+    diferencial: "Preço baixo"
+
+  assessorias_premium:
+    category: "Consultoria"
+    pricing: "1-3% patrimônio/ano"
+    tech: "Média"
+    human_touch: "Muito alto"
+    target: "High net worth"
+    diferencial: "Personalização"

@@ -20,7 +20,7 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   render: () => (
-    <Accordion type="single" collapsible className="w-[450px]">
+    <Accordion className="w-[450px]">
       <AccordionItem value="item-1">
         <AccordionTrigger>Is it accessible?</AccordionTrigger>
         <AccordionContent>
@@ -45,7 +45,7 @@ export const Default: Story = {
 
 export const Multiple: Story = {
   render: () => (
-    <Accordion type="multiple" className="w-[450px]">
+    <Accordion className="w-[450px]">
       <AccordionItem value="item-1">
         <AccordionTrigger>Getting Started</AccordionTrigger>
         <AccordionContent>

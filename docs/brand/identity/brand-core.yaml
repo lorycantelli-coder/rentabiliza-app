@@ -1,0 +1,97 @@
+---
+metadata:
+  schema: brand.identity.core
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+
+mission:
+  statement: >-
+    Democratizar investimentos de alto desempenho através de tecnologia preditiva,
+    transformando complexidade financeira em decisões simples e resultados mensuráveis
+    para quem tem vida além do mercado financeiro.
+  keywords:
+    - democratização
+    - tecnologia preditiva
+    - simplicidade
+    - resultados mensuráveis
+  target_impact: "Permitir que executivos construam patrimônio sem virar especialistas financeiros"
+
+vision:
+  statement: >-
+    Um mundo onde qualquer executivo ou empreendedor pode construir patrimônio sólido
+    sem precisar se tornar um especialista financeiro — onde a tecnologia trabalha 24/7
+    e você foca no que realmente importa.
+  time_horizon: "2030"
+  success_metrics:
+    - metric: "Market penetration"
+      target: "15% dos executivos brasileiros (30-55 anos)"
+    - metric: "Platform adoption"
+      target: "100K+ investidores ativos"
+    - metric: "Brand recognition"
+      target: "Top 3 em 'IA para investimentos'"
+
+core_values:
+  - name: "Results Over Promises"
+    description: "34% acima do mercado não é promessa, é dado auditado. Proof beats promise, sempre."
+    manifestation:
+      - "Performance auditada publicada mensalmente"
+      - "Dados reais, não projeções"
+      - "Zero marketing aspiracional"
+    weight: 0.25
+
+  - name: "Radical Transparency"
+    description: "Fees visíveis, performance auditada, risco explícito. Sem letras miúdas ou pegadinhas."
+    manifestation:
+      - "Preço fixo R$ 497/mês sempre visível"
+      - "Dashboard de performance em tempo real"
+      - "Relatórios auditados por terceiros"
+    weight: 0.20
+
+  - name: "Simplicity Without Sacrifice"
+    description: "Interface simples não significa tecnologia simplória. IA processa complexidade, você vê clareza."
+    manifestation:
+      - "3 cliques para criar portfólio"
+      - "Algoritmo complexo, UX minimalista"
+      - "Zero jargão técnico na interface"
+    weight: 0.20
+
+  - name: "Data-Driven Decisions"
+    description: "Zero palpites. Toda decisão é rastreável a dados, padrões históricos e probabilidades calculadas."
+    manifestation:
+      - "100% das recomendações explicáveis"
+      - "Backtest de 10 anos disponível"
+      - "Transparência nos modelos de IA"
+    weight: 0.15
+
+  - name: "Long-Term Thinking"
+    description: "Construção de patrimônio, não especulação. Horizonte de 5-10 anos, não semanas."
+    manifestation:
+      - "Rebalanceamento automático trimestral"
+      - "Foco em dividendos e crescimento sustentável"
+      - "Penalidade zero para saques (mas desencorajados)"
+    weight: 0.10
+
+  - name: "Skin in the Game"
+    description: "Nosso modelo de sucesso está atrelado ao seu. Não ganhamos se você não ganha."
+    manifestation:
+      - "Fee fixo (não % do patrimônio)"
+      - "Fundadores investem na própria plataforma"
+      - "Alinhamento total de incentivos"
+    weight: 0.10
+
+brand_essence:
+  primary: "Sophistication"
+  secondary: "Clarity"
+  tertiary: "Prosperity"
+  description: "Sofisticação que Gera Resultados - design elegante e profissional que transmite confiança através de precisão, não decoração."
+
+signature_sentence: "A IA trabalha. Os resultados são seus."
+
+references:
+  source_docs:
+    - "app/brandbook/strategy/page.tsx"
+    - "app/brandbook/guidelines/page.tsx"
+    - "Landing page v2.0"

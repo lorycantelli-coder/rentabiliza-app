@@ -1,0 +1,98 @@
+---
+metadata:
+  schema: brand.foundation.spacing_grid
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+
+spacing_system:
+  base_unit: "8px"
+  philosophy: "All spacing must be multiples of 8px for visual rhythm and consistency"
+
+  scale:
+    - value: "4px"
+      token: "spacing-0.5"
+      usage: "Micro adjustments, tight spacing"
+
+    - value: "8px"
+      token: "spacing-1"
+      usage: "Minimum touch target padding, compact UI"
+
+    - value: "12px"
+      token: "spacing-1.5"
+      usage: "Small gaps between related elements"
+
+    - value: "16px"
+      token: "spacing-2"
+      usage: "Default padding, standard gaps"
+
+    - value: "24px"
+      token: "spacing-3"
+      usage: "Section padding, card internal spacing"
+
+    - value: "32px"
+      token: "spacing-4"
+      usage: "Large gaps, component separation"
+
+    - value: "48px"
+      token: "spacing-6"
+      usage: "Section separation"
+
+    - value: "64px"
+      token: "spacing-8"
+      usage: "Major section breaks"
+
+    - value: "96px"
+      token: "spacing-12"
+      usage: "Page-level spacing"
+
+    - value: "128px"
+      token: "spacing-16"
+      usage: "Hero sections, dramatic spacing"
+
+grid_system:
+  columns: 12
+  gutter: "24px"
+  margin: "24px (mobile) / 48px (desktop)"
+
+  breakpoints:
+    - name: "mobile"
+      min_width: "320px"
+      max_width: "767px"
+      columns: 4
+      gutter: "16px"
+
+    - name: "tablet"
+      min_width: "768px"
+      max_width: "1023px"
+      columns: 8
+      gutter: "24px"
+
+    - name: "desktop"
+      min_width: "1024px"
+      max_width: "1439px"
+      columns: 12
+      gutter: "24px"
+
+    - name: "wide"
+      min_width: "1440px"
+      columns: 12
+      gutter: "32px"
+      max_content_width: "1600px"
+
+implementation:
+  tailwind_config: |
+    spacing: {
+      '0.5': '4px',
+      '1': '8px',
+      '1.5': '12px',
+      '2': '16px',
+      '3': '24px',
+      '4': '32px',
+      '6': '48px',
+      '8': '64px',
+      '12': '96px',
+      '16': '128px',
+    }

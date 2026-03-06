@@ -1,0 +1,44 @@
+/* Storybook Custom Styles - Rentabiliza Design System */
+
+/* Force Rentabiliza colors to override Storybook defaults */
+:root,
+.sb-show-main,
+.docs-story {
+  /* Rentabiliza Navy & Gold - CORE COLORS */
+  --background: 4 8 18 !important; /* #040812 - Navy AZUL puro */
+  --foreground: 255 255 255 !important; /* #FFFFFF - White */
+  --card: 10 19 38 !important; /* #0A1326 - Surface AZUL */
+  --card-foreground: 255 255 255 !important; /* White */
+  --popover: 10 19 38 !important; /* #0A1326 - Surface */
+  --popover-foreground: 255 255 255 !important; /* White */
+  --primary: 255 255 255 !important; /* #FFFFFF - White (botões primários) */
+  --primary-foreground: 4 8 18 !important; /* #040812 - Navy */
+  --secondary: 13 31 60 !important; /* #0D1F3C - Brand Blue AZUL */
+  --secondary-foreground: 255 255 255 !important; /* White */
+  --muted: 10 19 38 !important; /* #0A1326 - Surface */
+  --muted-foreground: 100 116 139 !important; /* #64748B - Slate */
+  --accent: 220 164 5 !important; /* #DCA405 - Gold */
+  --accent-foreground: 4 8 18 !important; /* #040812 - Navy */
+  --destructive: 220 38 38 !important; /* #DC2626 - Red */
+  --destructive-foreground: 255 255 255 !important; /* White */
+  --border: 20 35 60 !important; /* Bordas sutis AZUL */
+  --input: 10 19 38 !important; /* #0A1326 - Surface */
+  --ring: 220 164 5 !important; /* #DCA405 - Gold para focus */
+}
+
+/* Force background to navy on Storybook canvas */
+.sb-show-main,
+.docs-story,
+#storybook-docs,
+body {
+  background: rgb(4, 8, 18) !important; /* #040812 Navy */
+  color: rgb(255, 255, 255) !important; /* White */
+}
+
+/* Ensure stories have correct background */
+.sb-show-main > div,
+.docs-story > div {
+  background: rgb(4, 8, 18) !important;
+  color: rgb(255, 255, 255) !important;
+  min-height: 100vh;
+}

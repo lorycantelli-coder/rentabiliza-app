@@ -1,0 +1,301 @@
+---
+metadata:
+  schema: brand.foundation.typography
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Wheeler Visual System + Aaker Brand as Symbol"
+
+typography:
+  brand_personality_expression: "Sofisticação (Playfair) + Clareza (Inter) + Precisão (Roboto Mono)"
+
+  type_families:
+    - name: "Playfair Display"
+      role: "Display / Headlines"
+      category: "Serif"
+      source: "Google Fonts"
+      fallback: "Georgia, Times New Roman, serif"
+      weights_used: [400, 700]
+
+      personality:
+        - "Sophistication and elegance"
+        - "Premium without pretension"
+        - "Heritage and trust"
+
+      usage:
+        primary:
+          - "H1 headlines (hero sections)"
+          - "Large display text"
+          - "Brand signature moments"
+          - "Editorial content headers"
+        avoid:
+          - "Body text (readability)"
+          - "UI elements"
+          - "Data displays"
+
+      technical_specs:
+        optimal_sizes: "48px - 120px"
+        line_height: "1.1 - 1.2"
+        letter_spacing: "-0.02em (tight)"
+        weights: "400 (Regular), 700 (Bold)"
+
+    - name: "Inter"
+      role: "Interface / Body"
+      category: "Sans-serif"
+      source: "Google Fonts"
+      fallback: "-apple-system, BlinkMacSystemFont, sans-serif"
+      weights_used: [300, 400, 500, 600, 700]
+
+      personality:
+        - "Clarity and readability"
+        - "Modern and neutral"
+        - "Professional and accessible"
+
+      usage:
+        primary:
+          - "H2-H6 headings"
+          - "Body copy"
+          - "UI elements (buttons, nav)"
+          - "Form labels and inputs"
+        avoid:
+          - "Large display (use Playfair)"
+
+      technical_specs:
+        optimal_sizes: "14px - 48px"
+        line_height: "1.5 (body), 1.2 (headings)"
+        letter_spacing: "0 (normal)"
+        weights: "300 (Light), 400 (Regular), 500 (Medium), 600 (Semibold), 700 (Bold)"
+
+    - name: "Roboto Mono"
+      role: "Monospace / Data"
+      category: "Monospace"
+      source: "Google Fonts"
+      fallback: "Monaco, Courier New, monospace"
+      weights_used: [400, 500]
+
+      personality:
+        - "Precision and accuracy"
+        - "Technical credibility"
+        - "Data-driven focus"
+
+      usage:
+        primary:
+          - "Numbers and metrics (34%, R$ 497)"
+          - "Data displays and charts"
+          - "Code snippets"
+          - "Technical labels"
+          - "Small caps (labels, categories)"
+        avoid:
+          - "Body paragraphs"
+          - "Long headlines"
+
+      technical_specs:
+        optimal_sizes: "10px - 16px"
+        line_height: "1.5"
+        letter_spacing: "0.2em - 0.3em (tracking for labels)"
+        weights: "400 (Regular), 500 (Medium)"
+
+  type_scale:
+    system: "Modular scale (1.250 - Major Third)"
+    base_size: "16px"
+
+    scale:
+      - level: "Display XL"
+        size: "clamp(4rem, 8vw, 8rem)"
+        line_height: "0.9"
+        font: "Playfair Display"
+        weight: 900
+        letter_spacing: "-0.02em"
+        usage: "Hero headlines"
+
+      - level: "Display L"
+        size: "clamp(3rem, 6vw, 6rem)"
+        line_height: "0.95"
+        font: "Playfair Display"
+        weight: 700
+        letter_spacing: "-0.02em"
+        usage: "Section headlines"
+
+      - level: "H1"
+        size: "clamp(2.5rem, 5vw, 4rem)"
+        line_height: "1.1"
+        font: "Playfair Display"
+        weight: 700
+        letter_spacing: "-0.01em"
+        usage: "Page titles"
+
+      - level: "H2"
+        size: "clamp(2rem, 4vw, 3rem)"
+        line_height: "1.2"
+        font: "Inter"
+        weight: 700
+        letter_spacing: "0"
+        usage: "Section headers"
+
+      - level: "H3"
+        size: "clamp(1.5rem, 3vw, 2rem)"
+        line_height: "1.3"
+        font: "Inter"
+        weight: 600
+        letter_spacing: "0"
+        usage: "Subsection headers"
+
+      - level: "H4"
+        size: "1.25rem"
+        line_height: "1.4"
+        font: "Inter"
+        weight: 600
+        letter_spacing: "0"
+        usage: "Card titles"
+
+      - level: "Body L"
+        size: "1.125rem (18px)"
+        line_height: "1.6"
+        font: "Inter"
+        weight: 400
+        letter_spacing: "0"
+        usage: "Large body text, lead paragraphs"
+
+      - level: "Body M"
+        size: "1rem (16px)"
+        line_height: "1.5"
+        font: "Inter"
+        weight: 400
+        letter_spacing: "0"
+        usage: "Standard body text"
+
+      - level: "Body S"
+        size: "0.875rem (14px)"
+        line_height: "1.5"
+        font: "Inter"
+        weight: 400
+        letter_spacing: "0"
+        usage: "Small text, captions"
+
+      - level: "Label"
+        size: "0.625rem (10px)"
+        line_height: "1.5"
+        font: "Roboto Mono"
+        weight: 400
+        letter_spacing: "0.2em - 0.3em"
+        text_transform: "uppercase"
+        usage: "Labels, categories, metadata"
+
+  text_styles:
+    headline_impact:
+      font: "Playfair Display"
+      size: "clamp(3rem, 8vw, 6rem)"
+      weight: 900
+      line_height: "0.9"
+      letter_spacing: "-0.02em"
+      color: "White or Navy"
+      example: "RENTABILIZA"
+
+    data_highlight:
+      font: "Roboto Mono"
+      size: "2rem - 4rem"
+      weight: 700
+      color: "Gold (#DCA405)"
+      tracking: "tight (-0.01em)"
+      example: "34%"
+
+    section_label:
+      font: "Roboto Mono"
+      size: "10px"
+      weight: 400
+      letter_spacing: "0.25em"
+      text_transform: "uppercase"
+      color: "Gold (#DCA405)"
+      example: "BRAND STRATEGY"
+
+    body_professional:
+      font: "Inter"
+      size: "16px - 18px"
+      weight: 300
+      line_height: "1.6 - 1.8"
+      color: "White/90 or Navy/90"
+      example: "Regular paragraph text"
+
+  implementation:
+    google_fonts_import:
+      code: |
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+    css_variables:
+      code: |
+        :root {
+          /* Families */
+          --font-display: 'Playfair Display', Georgia, serif;
+          --font-body: 'Inter', -apple-system, sans-serif;
+          --font-mono: 'Roboto Mono', Monaco, monospace;
+
+          /* Sizes */
+          --text-xs: 0.75rem;    /* 12px */
+          --text-sm: 0.875rem;   /* 14px */
+          --text-base: 1rem;     /* 16px */
+          --text-lg: 1.125rem;   /* 18px */
+          --text-xl: 1.25rem;    /* 20px */
+          --text-2xl: 1.5rem;    /* 24px */
+          --text-3xl: 2rem;      /* 32px */
+          --text-4xl: 2.5rem;    /* 40px */
+          --text-5xl: 3rem;      /* 48px */
+        }
+
+    tailwind_config:
+      code: |
+        module.exports = {
+          theme: {
+            fontFamily: {
+              display: ['Playfair Display', 'Georgia', 'serif'],
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              mono: ['Roboto Mono', 'Monaco', 'monospace'],
+            }
+          }
+        }
+
+  usage_rules:
+    hierarchy:
+      - context: "Landing page hero"
+        headline: "Playfair Display, 96px, Bold"
+        subhead: "Inter, 24px, Light"
+        cta: "Inter, 16px, Bold"
+
+      - context: "Section header"
+        headline: "Inter, 48px, Bold"
+        body: "Inter, 18px, Light"
+        label: "Roboto Mono, 10px, uppercase"
+
+      - context: "Data display"
+        number: "Roboto Mono, 72px, Bold, Gold"
+        label: "Roboto Mono, 10px, uppercase"
+        description: "Inter, 14px, Regular"
+
+    readability:
+      min_body_size: "16px (desktop), 14px (mobile)"
+      max_line_length: "75 characters (body text)"
+      optimal_line_height: "1.5 - 1.8 (body)"
+      paragraph_spacing: "1.5em - 2em"
+
+  accessibility:
+    minimum_sizes:
+      body_text: "16px (1rem)"
+      small_text: "14px (0.875rem)"
+      labels: "12px (0.75rem) if uppercase"
+
+    contrast_requirements:
+      navy_on_white: "AAA ✅"
+      white_on_navy: "AAA ✅"
+      gold_on_navy: "AAA ✅"
+      gold_on_white: "AA (18px+) ✅"
+
+references:
+  source_docs:
+    - "app/brandbook/guidelines/page.tsx (Typography section)"
+    - "Global CSS / Tailwind config"
+
+frameworks_applied:
+  - "Wheeler Visual Identity (typography as brand asset)"
+  - "Aaker Brand as Symbol (visual identity element)"
+  - "Romaniuk Distinctive Assets (type as DBA)"

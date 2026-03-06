@@ -1,0 +1,216 @@
+---
+metadata:
+  schema: brand.identity.positioning
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+  framework: "Ries & Trout Positioning + Aaker Brand as Product"
+
+positioning:
+  positioning_statement:
+    template: "Para [target], ao contrário de [competitors] que [competitor approach], [brand] [unique approach] porque [proof/differentiator]."
+    rentabiliza: |
+      Ao contrário de corretoras tradicionais que lucram com transações e assessores que
+      cobram percentual fixo independente de resultado, Rentabiliza usa IA preditiva para
+      maximizar rentabilidade enquanto cobra apenas pelo valor gerado — alinhando nosso
+      sucesso ao seu.
+
+  category:
+    primary: "Plataforma de Investimentos com IA Preditiva"
+    alternative_descriptors:
+      - "Gestão de investimentos automatizada"
+      - "Robo-advisor preditivo"
+      - "Plataforma fintech de IA"
+    mental_ladder_position: "First-mover em IA preditiva para investimentos (Brasil)"
+    category_creation: true
+    rationale: "Ao contrário de competir em categoria saturada (corretoras), criamos nova categoria (IA preditiva)"
+
+  target_audience:
+    primary_segment:
+      demographic:
+        age_range: "30-55 anos"
+        income: "R$ 100K-1M investível"
+        occupation: "Executivos e empreendedores"
+        location: "Grandes centros urbanos (SP, RJ, BH, etc.)"
+
+      psychographic:
+        values:
+          - "Performance baseada em dados"
+          - "Eficiência de tempo"
+          - "Transparência financeira"
+        pain_points:
+          - "Não tem tempo para virar especialista financeiro"
+          - "Desconfia de assessores com conflito de interesse"
+          - "Inflação corroendo capital parado"
+          - "Complexidade do mercado financeiro"
+        aspirations:
+          - "Construir patrimônio sólido"
+          - "Focar no core business (empresa/carreira)"
+          - "Tomar decisões baseadas em dados"
+
+      behavioral:
+        tech_adoption: "Early adopters de fintech"
+        decision_style: "Data-driven, racional"
+        time_availability: "Limitado (executivos ocupados)"
+        risk_profile: "Moderado a agressivo"
+
+  differentiation:
+    primary_differentiator:
+      name: "IA Preditiva"
+      description: "Identifica oportunidades 48h antes do mercado reagir"
+      proof:
+        - "Backtest de 10 anos validado"
+        - "34% acima do mercado em 12 meses (auditado)"
+        - "15.2K investidores ativos"
+      competitors_dont_have: "Corretoras usam IA básica ou nenhuma; assessores dependem de análise humana"
+
+    secondary_differentiators:
+      - name: "Alinhamento de Incentivos"
+        description: "Fee fixo R$ 497/mês, não % do patrimônio"
+        benefit: "Não ganhamos mais se você fizer mais transações (corretoras) ou se patrimônio crescer passivamente (assessores)"
+        ries_trout_law: "Law of the Opposite (oposto das corretoras)"
+
+      - name: "Gestão de Risco Automática"
+        description: "3% max loss por ativo, automático"
+        benefit: "Proteção sem necessidade de monitoramento constante"
+        unique: "Competidores exigem monitoramento manual ou não têm limite"
+
+      - name: "Time to Value"
+        description: "3 cliques, resultados em 48h"
+        benefit: "Velocidade vs semanas de pesquisa (DIY) ou meses de onboarding (assessor)"
+
+  competitive_landscape:
+    frame_of_reference: "Soluções de investimento para executivos ocupados"
+
+    competitors:
+      - category: "Corretoras Tradicionais"
+        examples: ["XP", "BTG", "Rico"]
+        positioning: "Plataforma de transações com análise básica"
+        weakness: "Lucram com transações (conflito), requer tempo para pesquisa"
+        how_we_win: "IA trabalha 24/7, fee fixo sem conflito"
+
+      - category: "Assessores Financeiros"
+        examples: ["Private banking", "Consultores independentes"]
+        positioning: "Consultoria personalizada"
+        weakness: "1-2% patrimônio/ano, conservador demais, reuniões trimestrais"
+        how_we_win: "R$ 497 flat, agressivo baseado em dados, 24/7 availability"
+
+      - category: "DIY / Sozinho"
+        examples: ["Investidor autônomo"]
+        positioning: "Controle total, sem custos"
+        weakness: "Meses/anos de aprendizado, tempo integral, risco de erro"
+        how_we_win: "Expertise automatizada, resultados auditados"
+
+      - category: "Robo-advisors Básicos"
+        examples: ["Warren", "Magnetis"]
+        positioning: "Investimento automatizado simples"
+        weakness: "Algoritmos reativos (não preditivos), portfolio conservador"
+        how_we_win: "IA preditiva 48h ahead, performance 34% above market"
+
+    competitive_matrix:
+      criteria:
+        - criterion: "Time to Value"
+          rentabiliza: "48h (3 cliques)"
+          corretora: "Semanas (pesquisa manual)"
+          assessor: "1-2 meses (onboarding)"
+          diy: "Meses/anos (aprendizado)"
+
+        - criterion: "Cost Model"
+          rentabiliza: "R$ 497/mês flat"
+          corretora: "% por transação"
+          assessor: "1-2% patrimônio/ano"
+          diy: "Grátis (mas tempo vale?)"
+
+        - criterion: "AI Usage"
+          rentabiliza: "IA preditiva nativa"
+          corretora: "Nenhuma ou básica"
+          assessor: "Dependente do assessor"
+          diy: "Você que se vire"
+
+        - criterion: "Risk Management"
+          rentabiliza: "3% max loss automático"
+          corretora: "Manual (você decide)"
+          assessor: "Conservador demais"
+          diy: "YOLO ou paralisia"
+
+        - criterion: "Proven Results"
+          rentabiliza: "34% above market"
+          corretora: "Variável"
+          assessor: "8-12% típico"
+          diy: "-20% a +50% (loteria)"
+
+  owned_attributes:
+    primary:
+      word: "Preditivo"
+      rationale: "Ries & Trout: Own a word in the prospect's mind"
+      proof: "IA identifica padrões 48h antes do mercado"
+      defensibility: "Único com backtest 10 anos + performance auditada"
+
+    secondary:
+      - word: "Transparente"
+        manifestation: "Fee fixo visível, performance pública, risco explícito"
+      - word: "Automático"
+        manifestation: "Diversificação, rebalanceamento, risco - tudo sem intervenção"
+
+  positioning_evolution:
+    phase_1_awareness:
+      focus: "Category creation"
+      message: "IA preditiva para investimentos existe"
+      proof: "34% acima do mercado"
+
+    phase_2_consideration:
+      focus: "Differentiation"
+      message: "Preditivo vs reativo"
+      proof: "48h antes do mercado, 3% max loss"
+
+    phase_3_preference:
+      focus: "Proof of concept"
+      message: "Resultados reais de clientes"
+      proof: "15.2K investidores, cases específicos"
+
+    phase_4_loyalty:
+      focus: "Community & advocacy"
+      message: "Movimento de investidores data-driven"
+      proof: "Network effects, referrals"
+
+anti_positioning:
+  we_are_not:
+    - "Corretora (não lucramos com transações)"
+    - "Consultoria tradicional (não cobramos % do patrimônio)"
+    - "Curso de investimentos (não ensinamos, fazemos por você)"
+    - "Promessa vazia (dados auditados, não projeções)"
+
+  ries_trout_laws_applied:
+    - law: "Law of Leadership"
+      application: "First-mover em IA preditiva (Brasil)"
+
+    - law: "Law of the Category"
+      application: "Criamos categoria nova ao invés de competir em saturada"
+
+    - law: "Law of the Mind"
+      application: "Posicionar como 'preditivo' (mente) não apenas features (produto)"
+
+    - law: "Law of Perception"
+      application: "Percepção de inovação tech + resultados comprováveis"
+
+    - law: "Law of Focus"
+      application: "Own 'preditivo', sacrificar amplitude (não somos tudo para todos)"
+
+    - law: "Law of the Opposite"
+      application: "Oposto de corretoras: fee fixo, não transacional"
+
+    - law: "Law of Sacrifice"
+      application: "Só executivos 30-55 com R$ 100K+, não mercado massa"
+
+references:
+  source_docs:
+    - "app/brandbook/strategy/page.tsx (Positioning section)"
+    - "app/brandbook/strategy/page.tsx (Competitive Landscape)"
+    - "Landing page value props"
+
+frameworks_applied:
+  - "Ries & Trout Positioning Framework (22 Laws)"
+  - "Aaker Brand as Product (positioning, users)"
+  - "Keller CBBE (points-of-parity, points-of-difference)"

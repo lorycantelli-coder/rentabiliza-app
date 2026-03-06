@@ -1,0 +1,27 @@
+---
+metadata:
+  schema: brand.narrative.content_guidelines
+  version: 1.0.0
+
+writing_rules:
+  sentence_structure:
+    max_length: "20 words per sentence"
+    prefer: "Subject-verb-object (SVO)"
+    avoid: "Nested clauses, passive voice"
+
+  paragraph_structure:
+    max_length: "4 sentences"
+    lead: "Most important info first"
+    format: "One idea per paragraph"
+
+  numbers:
+    always_use_digits: true
+    format_currency: "R$ 497 (space after R$)"
+    format_percentage: "34% (no space)"
+    precision: "1 decimal max (34.5%, not 34.567%)"
+
+  forbidden_phrases:
+    - "muito bom" → use data
+    - "revolucionário" → use specific innovation
+    - "talvez" → remove or be specific
+    - "potencial" → use "resultado"

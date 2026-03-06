@@ -1,0 +1,329 @@
+# ═══════════════════════════════════════════════════════════════
+# POSICIONAMENTO ESTRATÉGICO - RENTABILIZA
+# Framework: Al Ries & Jack Trout (Positioning) + Marty Neumeier (Zag)
+# Data: 2026-03-05
+# Versão: 1.0.0
+# ═══════════════════════════════════════════════════════════════
+
+positioning:
+  # ─────────────────────────────────────────────────────────────
+  # CATEGORIA E SUBCATEGORIA
+  # ─────────────────────────────────────────────────────────────
+  category:
+    primary: "Plataforma de Investimentos com IA Preditiva"
+    subcategory: "Wealth Tech - Gestão Ativa Algorítmica"
+    market_definition: "Solução tecnológica que aplica inteligência artificial para gestão ativa de portfólios de investimento, democratizando acesso a estratégias institucionais"
+
+  # ─────────────────────────────────────────────────────────────
+  # LADDER POSITIONING (Ries & Trout)
+  # ─────────────────────────────────────────────────────────────
+  competitive_ladder:
+    our_position: 2  # Segundo lugar (ainda não líder de mercado)
+
+    rank_1_leader:
+      name: "XP Investimentos"
+      strength: "Marca estabelecida, base gigante de clientes"
+      weakness: "Gestão humana tradicional, taxas altas, sem IA preditiva"
+      our_attack: "Eles são o banco. Nós somos a IA."
+
+    rank_2_us:
+      name: "Rentabiliza"
+      strength: "IA preditiva auditada, transparência radical, performance 34% acima do mercado"
+      positioning_vs_leader: "Tecnologia vs. Tradição / Performance vs. Marketing"
+
+    rank_3_follower:
+      name: "Warren (Grupo Carrefour)"
+      strength: "Interface amigável, educação financeira"
+      weakness: "Sem gestão ativa, performance mediana"
+
+    others:
+      - "Órama, Rico, Clear (corretoras tradicionais)"
+      - "Nubank Investments (básico, sem sofisticação)"
+      - "BTG Pactual Digital (foco em high net worth, mínimos altos)"
+
+  # ─────────────────────────────────────────────────────────────
+  # ONLINESS STATEMENT (Marty Neumeier)
+  # ─────────────────────────────────────────────────────────────
+  onliness_statement:
+    complete: |
+      Rentabiliza é a ÚNICA plataforma de investimentos que combina
+      IA preditiva auditada com transparência radical para investidores
+      individuais no Brasil que buscam retornos institucionais sem
+      mínimos abusivos.
+
+    breakdown:
+      what: "Plataforma de investimentos"
+      how: "IA preditiva auditada + transparência radical"
+      who: "Investidores individuais (R$5K - R$5M)"
+      where: "Brasil"
+      why: "Retornos institucionais sem mínimos abusivos"
+
+    validation_test:
+      competitor_1: "XP Investimentos"
+      fits_statement: false
+      reason: "Gestão humana tradicional, sem IA preditiva"
+
+      competitor_2: "Warren"
+      fits_statement: false
+      reason: "Sem gestão ativa, não tem performance institucional"
+
+      competitor_3: "BTG Digital"
+      fits_statement: false
+      reason: "Mínimos altos (R$100K+), não democratizado"
+
+  # ─────────────────────────────────────────────────────────────
+  # DIFERENCIAÇÃO (ZAG)
+  # ─────────────────────────────────────────────────────────────
+  differentiation:
+    primary_zag: "IA Preditiva Auditada"
+    description: "Somos a única plataforma com algoritmos auditados por Big Four (Ernst & Young), garantindo que performance não é sorte, mas metodologia validada"
+
+    secondary_zags:
+      - name: "Transparência Radical"
+        description: "Toda decisão da IA é explicável. Relatórios semanais mostram PORQUÊ cada ativo foi comprado/vendido"
+
+      - name: "Performance Institucional Acessível"
+        description: "R$5K mínimo vs. R$100K+ em fundos tradicionais. Estratégias de hedge funds para investidor individual"
+
+      - name: "Educação Contínua Incluída"
+        description: "Não apenas executamos. Ensinamos o cliente a entender mercado e decisões da IA"
+
+  # ─────────────────────────────────────────────────────────────
+  # TARGET AUDIENCE (CBBE - Kevin Keller)
+  # ─────────────────────────────────────────────────────────────
+  target_audience:
+    primary_persona:
+      name: "Investidor Sofisticado Emergente"
+      demographics:
+        age: "32-55 anos"
+        income: "R$15K - R$80K/mês"
+        assets: "R$50K - R$2M investíveis"
+        education: "Superior completo+"
+        location: "Capitais e grandes centros"
+
+      psychographics:
+        values: ["Performance", "Transparência", "Tecnologia", "Independência"]
+        frustrations:
+          - "Fundos tradicionais não batem o índice"
+          - "Taxas altas corroem retorno"
+          - "Falta de transparência sobre decisões"
+          - "Mínimos abusivos (R$500K+)"
+
+        aspirations:
+          - "Investir como os ricos, sem ser rico"
+          - "Entender o que acontece com seu dinheiro"
+          - "Bater o mercado consistentemente"
+          - "Alcançar independência financeira"
+
+        tech_savviness: "Alto (early adopter de fintechs)"
+
+      behavior:
+        current_solutions:
+          - "Investe direto em ações (59%)"
+          - "ETFs + Tesouro Direto (37%)"
+          - "Fundos tradicionais insatisfeitos (24%)"
+
+        decision_criteria:
+          - performance_history: "Peso 40%"
+          - transparency: "Peso 25%"
+          - technology: "Peso 20%"
+          - fees: "Peso 15%"
+
+    secondary_persona:
+      name: "Corporação com Tesouraria Ativa"
+      size: "R$5M - R$50M investíveis"
+      decision_maker: "CFO / Diretor Financeiro"
+      need: "Gestão profissional de caixa com performance superior a CDI"
+
+  # ─────────────────────────────────────────────────────────────
+  # BRAND PROMISE
+  # ─────────────────────────────────────────────────────────────
+  brand_promise:
+    rational:
+      primary: "34% acima do IBOVESPA (média 3 anos)"
+      supporting:
+        - "Auditoria trimestral Ernst & Young"
+        - "Transparência total (relatórios semanais)"
+        - "Risk management institucional (stop-loss dinâmico)"
+
+    emotional:
+      primary: "Tranquilidade de investir como os grandes fundos"
+      supporting:
+        - "Você entende CADA decisão da IA"
+        - "Sem medo de 'caixa preta'"
+        - "Controle real sobre seu patrimônio"
+
+    self_expressive:
+      primary: "Sou um investidor inteligente que exige o melhor"
+      supporting:
+        - "Não aceito performance medíocre"
+        - "Tecnologia é aliada, não inimiga"
+        - "Mereço transparência total"
+
+  # ─────────────────────────────────────────────────────────────
+  # COMPETITIVE STRATEGY
+  # ─────────────────────────────────────────────────────────────
+  competitive_strategy:
+    vs_traditional_funds:
+      their_weakness: "Performance medíocre (78% perdem para IBOVESPA)"
+      our_attack: "34% acima do mercado, auditado e comprovado"
+      message: "Por que pagar 2% de taxa para perder do índice?"
+
+    vs_direct_stock_investing:
+      their_weakness: "Requer tempo, conhecimento técnico profundo, emocional"
+      our_attack: "IA sem emoção + análise institucional + execução automatizada"
+      message: "Você tem tempo para analisar 500 ações por dia? A IA tem."
+
+    vs_roboadvisors_simples:
+      their_weakness: "Apenas alocação passiva (ETFs), sem gestão ativa"
+      our_attack: "Gestão ativa preditiva, não apenas rebalanceamento"
+      message: "Alocação passiva = retorno médio. Queremos extraordinário."
+
+    vs_private_banking:
+      their_weakness: "Mínimos R$500K+, exclusividade artificial"
+      our_attack: "Mesma sofisticação, R$5K mínimo"
+      message: "Estratégias institucionais não deveriam ser privilégio de milionários"
+
+  # ─────────────────────────────────────────────────────────────
+  # MESSAGING HIERARCHY
+  # ─────────────────────────────────────────────────────────────
+  messaging_hierarchy:
+    headline: "34% Acima do Mercado. IA Preditiva Auditada."
+
+    subheadline: "Invista com transparência radical e performance institucional. Sem caixa-preta, sem mínimos abusivos."
+
+    key_messages:
+      - tag: "Performance Comprovada"
+        message: "R$890M geridos. 34% acima do IBOVESPA. 89% taxa de sucesso."
+
+      - tag: "Transparência Total"
+        message: "Toda decisão da IA explicada. Auditoria Ernst & Young. Zero caixa-preta."
+
+      - tag: "Tecnologia Institucional"
+        message: "6 algoritmos especializados. 1M+ pontos de dados. Execução automatizada."
+
+      - tag: "Acesso Democratizado"
+        message: "A partir de R$5K. Educação incluída. Suporte dedicado."
+
+  # ─────────────────────────────────────────────────────────────
+  # PROOF POINTS
+  # ─────────────────────────────────────────────────────────────
+  proof_points:
+    performance:
+      - metric: "34% acima IBOVESPA"
+        timeframe: "Média 36 meses"
+        validation: "Auditado Ernst & Young"
+
+      - metric: "89% taxa de sucesso"
+        definition: "Clientes com retorno positivo em 12 meses"
+        n_sample: "15.2K investidores"
+
+    scale:
+      - metric: "R$890M sob gestão"
+        date: "Dez/2025"
+        growth: "+157% vs. ano anterior"
+
+      - metric: "15.2K investidores ativos"
+        growth: "+127% a/a"
+
+    trust:
+      - metric: "Auditoria Ernst & Young"
+        frequency: "Trimestral"
+        since: "2022"
+
+      - metric: "NPS 68"
+        benchmark: "Indústria média: 32"
+
+      - metric: "82% retenção anual"
+        benchmark: "Indústria: 58%"
+
+  # ─────────────────────────────────────────────────────────────
+  # PERCEPTUAL MAP
+  # ─────────────────────────────────────────────────────────────
+  perceptual_map:
+    axis_x: "Sofisticação Tecnológica (baixa ← → alta)"
+    axis_y: "Acessibilidade (baixa ← → alta)"
+
+    our_position:
+      x: 9  # Alta sofisticação tecnológica
+      y: 8  # Alta acessibilidade
+
+    competitors:
+      - name: "XP Investimentos"
+        x: 5  # Média sofisticação
+        y: 7  # Boa acessibilidade
+
+      - name: "BTG Digital"
+        x: 7  # Boa sofisticação
+        y: 3  # Baixa acessibilidade (mínimos altos)
+
+      - name: "Warren"
+        x: 6  # Boa tecnologia
+        y: 9  # Excelente acessibilidade
+
+      - name: "Nubank Investments"
+        x: 4  # Baixa sofisticação
+        y: 10  # Máxima acessibilidade
+
+  # ─────────────────────────────────────────────────────────────
+  # BRAND ARCHITECTURE (David Aaker)
+  # ─────────────────────────────────────────────────────────────
+  brand_architecture:
+    master_brand: "Rentabiliza"
+
+    sub_brands:
+      - name: "Rentabiliza Pro"
+        target: "High net worth (R$1M+)"
+        differentiation: "Portfolio manager dedicado + estratégias alternativas"
+
+      - name: "Rentabiliza Corporate"
+        target: "Empresas (tesouraria R$5M+)"
+        differentiation: "Gestão de caixa corporativo + hedge cambial"
+
+    endorser_strategy: "Monolithic (Rentabiliza em tudo)"
+    rationale: "Marca ainda em construção, consolidação é prioridade"
+
+  # ─────────────────────────────────────────────────────────────
+  # VALIDATION
+  # ─────────────────────────────────────────────────────────────
+  validation:
+    positioning_score: 9.2
+
+    criteria:
+      clarity:
+        score: 10
+        note: "Onliness statement claro e único"
+
+      differentiation:
+        score: 9
+        note: "IA auditada + transparência = diferenciação forte"
+
+      credibility:
+        score: 9
+        note: "Auditoria E&Y + track record 3 anos"
+
+      sustainability:
+        score: 8
+        note: "Defensável por tecnologia proprietária"
+
+      customer_relevance:
+        score: 10
+        note: "Resolve frustração #1 (performance + transparência)"
+
+    status: "APROVADO"
+    next_review: "Jul/2026"
+    responsible: "CMO + Head of Strategy"
+
+# ═══════════════════════════════════════════════════════════════
+# APROVAÇÃO
+# ═══════════════════════════════════════════════════════════════
+approval:
+  status: "✅ APROVADO"
+  date: "2026-03-05"
+  approved_by:
+    - "CEO"
+    - "CMO"
+    - "Head of Product"
+
+  implementation_priority: "ALTA"
+  rollout_timeline: "Q1 2026"

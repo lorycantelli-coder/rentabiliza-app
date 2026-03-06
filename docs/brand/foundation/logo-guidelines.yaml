@@ -1,0 +1,211 @@
+---
+metadata:
+  schema: brand.foundation.logo_guidelines
+  version: 1.0.0
+  business_unit: rentabiliza
+  extracted_at: '2026-03-04'
+  last_updated: '2026-03-04'
+  status: active
+
+logo_system:
+  primary_logo:
+    name: "Rentabiliza Wordmark"
+    type: "Typographic logo"
+    description: "Logotipo baseado em tipografia com 'R' destacado"
+
+    specifications:
+      font: "Playfair Display Bold (700)"
+      tracking: "0.3em (expanded)"
+      structure:
+        - "R inicial: 2x scale, Gold (#DCA405)"
+        - "ENTABILIZA: Navy (#040812) ou White (#FFFFFF)"
+
+    file_formats:
+      - format: "SVG"
+        use: "Web, escalável"
+      - format: "PNG"
+        sizes: ["1024x1024", "512x512", "256x256", "128x128"]
+      - format: "PDF"
+        use: "Print, alta qualidade"
+
+  logo_variations:
+    - name: "Full Wordmark"
+      usage: "Padrão, uso geral"
+      min_width: "180px (digital) / 40mm (print)"
+      aspect_ratio: "5:1 (horizontal)"
+
+    - name: "Stacked"
+      usage: "Espaços verticais"
+      structure: "R\nRENTABILIZA"
+      min_width: "120px (digital) / 30mm (print)"
+      aspect_ratio: "1:1.5"
+
+    - name: "Icon Only"
+      usage: "Avatares, favicons, apps"
+      content: "R (letter only)"
+      min_size: "32px (digital) / 10mm (print)"
+      aspect_ratio: "1:1"
+
+    - name: "Monochrome"
+      usage: "Impressão 1 cor, carimbos"
+      variations:
+        - "All Black"
+        - "All White"
+        - "All Gold"
+
+clear_space:
+  rule: "Mínimo de 'R' de espaço em todos os lados"
+  measurement: "Altura da letra 'R' = 1x clear space"
+  application: "Nenhum elemento gráfico ou texto dentro desta área"
+
+  visual_guide: |
+    ✕ ✕ ✕ ✕ ✕
+    ✕ [R]ENTABILIZA ✕
+    ✕ ✕ ✕ ✕ ✕
+
+minimum_sizes:
+  digital:
+    wordmark: "180px width"
+    icon: "32px"
+    stacked: "120px width"
+
+  print:
+    wordmark: "40mm width"
+    icon: "10mm"
+    stacked: "30mm width"
+
+  rationale: "Abaixo desses tamanhos, legibilidade é comprometida"
+
+color_usage:
+  primary_palette:
+    on_white:
+      - r: "Gold (#DCA405)"
+      - rest: "Navy (#040812)"
+
+    on_navy:
+      - r: "Gold (#DCA405)"
+      - rest: "White (#FFFFFF)"
+
+    on_gold:
+      - entire: "Navy (#040812)"
+
+  dont:
+    - "R em Navy + resto em Navy (sem contraste)"
+    - "Logo completo em cores não-brand"
+    - "Gradientes no logo (exceto backgrounds)"
+    - "Transparências < 100%"
+
+dos_and_donts:
+  do:
+    - "Usar variações oficiais fornecidas"
+    - "Manter proporções originais"
+    - "Usar cores da paleta brand"
+    - "Respeitar clear space mínimo"
+    - "Usar arquivos vetoriais quando possível"
+
+  dont:
+    - "❌ Distorcer proporções (esticar/comprimir)"
+    - "❌ Rotacionar o logo"
+    - "❌ Adicionar efeitos (sombras, outlines, 3D)"
+    - "❌ Alterar tracking ou espaçamento"
+    - "❌ Usar cores não-oficiais"
+    - "❌ Colocar logo sobre imagens busy"
+    - "❌ Animar sem aprovação"
+
+backgrounds:
+  approved:
+    - "Sólidos: Navy, White, Black"
+    - "Gradientes brand (Navy variations)"
+    - "Imagens com clear space preservado"
+
+  contrast_requirements:
+    minimum: "4.5:1 (WCAG AA)"
+    preferred: "7:1 (WCAG AAA)"
+
+  when_on_images:
+    - "Usar versão monochrome (all white ou all gold)"
+    - "Adicionar subtle backdrop blur se necessário"
+    - "Garantir contraste visual claro"
+
+special_applications:
+  favicon:
+    file: "favicon.ico"
+    sizes: ["16x16", "32x32", "48x48"]
+    content: "R icon only"
+    background: "Navy (#040812)"
+    r_color: "Gold (#DCA405)"
+
+  app_icon:
+    sizes: ["1024x1024", "512x512", "180x180"]
+    style: "R centered on Navy background"
+    padding: "20% inset"
+
+  social_media:
+    facebook: "1200x630px (1.91:1)"
+    twitter: "400x400px (1:1)"
+    linkedin: "300x300px (1:1)"
+    instagram: "1080x1080px (1:1)"
+
+  email_signature:
+    max_width: "150px"
+    format: "PNG with transparent background"
+    version: "Wordmark, Navy+Gold on transparent"
+
+co_branding:
+  rules:
+    - "Rentabiliza logo sempre à esquerda"
+    - "Mesmo tamanho ou maior que parceiro"
+    - "Separação mínima: 2x clear space"
+    - "Aprovação necessária para cada caso"
+
+  hierarchy:
+    primary: "Rentabiliza (maior ou igual)"
+    partner: "Parceiro (menor ou igual)"
+    separator: "Barra vertical (/) em Navy/20% opacity"
+
+prohibited_usage:
+  absolutely_forbidden:
+    - "Uso em contextos financeiros fraudulentos"
+    - "Associação com produtos/serviços não-aprovados"
+    - "Modificações não-autorizadas"
+    - "Uso por terceiros sem licença"
+
+file_naming:
+  convention: "rentabiliza-logo-[variation]-[color]-[format].[ext]"
+
+  examples:
+    - "rentabiliza-logo-wordmark-navy-gold.svg"
+    - "rentabiliza-logo-icon-white.png"
+    - "rentabiliza-logo-stacked-monochrome.pdf"
+
+download_package:
+  includes:
+    - "All variations (wordmark, stacked, icon)"
+    - "All color versions (navy+gold, white, monochrome)"
+    - "All formats (SVG, PNG @1x/2x/3x, PDF)"
+    - "Usage guidelines PDF"
+
+implementation:
+  html:
+    code: |
+      <img src="/logo/rentabiliza-wordmark.svg"
+           alt="Rentabiliza"
+           width="180"
+           height="36" />
+
+  react:
+    code: |
+      <Logo
+        variant="wordmark"
+        color="navy-gold"
+        width={180}
+      />
+
+references:
+  source_docs:
+    - "color-system.yaml (brand colors)"
+    - "typography-system.yaml (Playfair specs)"
+
+  frameworks_applied:
+    - "Wheeler Visual Identity System"
+    - "Romaniuk Distinctive Brand Assets"
