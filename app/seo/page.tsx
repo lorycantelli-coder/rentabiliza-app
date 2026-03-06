@@ -417,7 +417,7 @@ Disallow: /api/`}</code>
               </div>
               <div className="bg-white/5 rounded-lg p-6 border border-white/10">
                 <div className="font-mono text-sm text-white/60 mb-2">Performance</div>
-                <p className="text-white/80">Core Web Vitals afetam SEO. Otimize LCP (< 2.5s), FID (< 100ms), CLS (< 0.1).</p>
+                <p className="text-white/80">Core Web Vitals afetam SEO. Otimize LCP (&lt; 2.5s), FID (&lt; 100ms), CLS (&lt; 0.1).</p>
               </div>
             </div>
           </section>
